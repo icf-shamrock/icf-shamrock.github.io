@@ -1,13 +1,22 @@
 title: ICF
-description: > # this means to ignore newlines until "baseurl:"
+description: >- # this means to ignore newlines until "baseurl:"
   ICF(Intercollegiate Celtic Festival)公式ホームページ。日本のケルト音楽を楽しむ学生による2泊3日のイベント。
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "icf-shamrock.com" # the base hostname & protocol for your site
 # Build settings
 markdown: kramdown
 
+seo_tag: 
+  image: "../css/2017_style/img/card.png"
+
+lang: "ja"
+
 facebook:
   app_id: 
+
+twitter:
+  card: summary_large_image
+  username: icf_shamrock
 
 logo: "../css/2016_style/img/icon-large.png"
 
