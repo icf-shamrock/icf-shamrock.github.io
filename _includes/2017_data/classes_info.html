@@ -1,0 +1,45 @@
+ <!-- Portfolio Modals -->
+ {% for section in site.data.classes %}
+    <div class="portfolio-modal modal fade" id="{{ section.type }}" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-content">
+            <div class="close-modal" data-dismiss="modal">
+                <div class="lr">
+                    <div class="rl">
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <h1>{{ section.title }}</h1>
+                            <hr class="star-primary">
+                            <img src="../css/2017_style/img/speaker/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
+
+                            {% for class in section.classes %}
+                            <h2>{{ class.name }}</h2>
+                            <hr class="star-primary">
+                            <p>講師: {{ class.teacher }} (<a href="{{ class.web }}">web</a>)</p>
+
+                            {% if class.best_for %} 
+                            <h4>対象者</h4>
+                            <p>{{ class.best_for }}</p>
+                            {% endif %}
+
+                            <p>{{ class.description }}</p>
+
+                            {% if class.html %}
+                            <h4>課題曲</h4>
+                            {{ class.html }}
+                            {% endif %}
+
+                            {% endfor %}
+
+                            <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  {% endfor %}
