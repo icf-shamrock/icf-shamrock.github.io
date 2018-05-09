@@ -248,7 +248,7 @@ fieldset[disabled] .btn-xl.active {
 
 /* headerのbrandロゴのフォント */
 .navbar-default .navbar-brand {
-    font-family: 'Libre Baskerville',"Kaushan Script","Helvetica Neue",Helvetica,Arial,cursive;
+    font-family: 'Libre Baskerville','Kaushan Script','Helvetica Neue',Helvetica,Arial,cursive;
     color: #{{ site.data.template.color.primary }};
 }
 
