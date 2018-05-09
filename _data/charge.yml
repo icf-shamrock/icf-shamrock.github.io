@@ -1,0 +1,13 @@
+- name: "パレード当日練"
+  student: "0"
+  other: "0"
+- name: "パレード"
+  student: "500(16歳未満は無料)"
+  other: "500"
+- name: "ホイッスル初めて講座"
+  student: "0"
+  other: "0"
+- name: "楽器&ダンスクラス"
+  student: "1200"
+  other: "2400"
+

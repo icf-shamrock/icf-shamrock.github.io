@@ -17,9 +17,22 @@ title: 料金とキャンセル時の対応について
 
       <h2 class="first">個別参加費</h2>
 
-      <p>「楽しむ」 上手いもいいけどまずは楽しく</p>
-      <p>「つながる」 たくさん見つける新たな仲間</p>
-      <p>「アイリッシュ」 覗いてみようアイルランドの伝統</p>
+      <table class="agenda">
+        <thead>
+          <tr>
+            <th class="row-1 agenda-time"><center> </center></th>
+            <th class="row-2 agenda-activity"><center>学生+20歳以下の料金</center></th>  
+            <th class="row-2 agenda-activity"><center>一般の方の料金</center></th>  
+          </tr>
+        </thead>
+        {% for event in site.data.charge %}
+        <tr>
+          <td>{{event.name}}</td>
+          <td>{{event.student}}</td>
+          <td>{{event.other}}</td>
+        </tr>           
+        {% endfor %}
+      </table>
 
       <h2 class="first">キャンセルに関して</h2>
 
