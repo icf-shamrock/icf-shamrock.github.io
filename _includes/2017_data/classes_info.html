@@ -13,7 +13,7 @@
          <div class="col-lg-8 col-lg-offset-2">
            <div class="modal-body">
 
-             <h1>{{ section.title }}</h1>
+             <h1>{{ section.title }} </h1>
              {% if section.description_detail %}
              <p>{{ section.description_detail }}</p>
              {% endif %}
@@ -24,7 +24,7 @@
              {% for class in section.classes %}
 
              <div style="margin: 5em 0em;">
-             <h2>{{ class.name }}</h2>
+             <h2><small>講座名: </small>{{ class.name }}</h2>
              <hr class="star-primary">
              <h4>講師</h4>
              <p>{{ class.teacher }}
