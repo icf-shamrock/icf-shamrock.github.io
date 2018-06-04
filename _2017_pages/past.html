@@ -11,25 +11,135 @@ title: 過去のICFについて
     <section id="conference" class="black-frame about about-container about-container-top">
       <h1>{{ page.title }}</h1>
 
+
       <h2 class="first">第9回開催概要</h2>
 
-      <p>Intercollegiate Celtic Festivalの略称。</p>
-
-      <h2 class="first">ICFスローガン</h2>
-
-      <p>「アイリッシュ」 覗いてみようアイルランドの伝統</p>
-
-      <h2 class="first">ICF実行委員</h2>
-
 
     </section>
 
+
+    {% for year in site.data.past %}
     <section id="fourth" class="black-frame about about-container">
-      <h1>実行委員に参加してみたい方へ</h1>
+      <h1>{{ year.name }} 開催概要</h1>
+      <p>{{ year.description }}</p>
+      <p>主催: {{ year.host }}</p>
+      <p>会場: {{ year.site }}</p>
 
-      <p>実行委員会は次の回のICFに向けて前年の5月を目安に発足します。委員募集は発足に向けて3月から5月まで行っておりますが、お問い合わせはいつでも大歓迎です！ 当日の仕事や自宅でできる仕事などもあるので、様々な地方の学生の皆様の参加をお待ちしております！</p>
-      <p>一緒にICFを動かしてみませんか？</p>
+      <h2 class="first">新たな取り組み</h2>
+      <ul>
+        {% for feature in year.features %}
+        <li>{{ feature.text }}</li>
+        {% endfor %}
+      </ul>
+
+      <h2 class="first">参加者内訳</h2>
+      <p>全体参加人数 {{ year.data.total }}名 (男性 {{ year.data.male }}名、女性 {{ year.data.female }}名)</p>
+      <div id="canvas-holder" style="width:100%; height: 350px;">
+        <canvas id="chart-8"></canvas>
+      </div>
+      <script> 
+var ctx = document.getElementById("chart-8").getContext('2d');
+var labels = {{ year.data.university.label }}
+var data = {{ year.data.university.number }}
+var myChart = new Chart(ctx, {
+  type: 'pie',
+  data: {
+    labels: labels,
+    datasets: [{
+      label: '人数',
+      data: data,
+      backgroundColor: [
+        'rgba(255, 99, 132, 0.2)',
+        'rgba(255, 99, 132, 0.2)',
+        'rgba(54, 162, 235, 0.2)',
+      ]
+    }]
+  },
+  options: {
+    responsive: true,
+    maintainAspectRatio: false
+  }
+});
+    </script>
+
+
+      <h2 class="first">写真</h2>
+
+      <div class="carousel"
+           data-flickity='{ "lazyLoad": true, "cellAlign": "center" }'>
+        {% for photo in year.photos %}
+        <div class="carousel-cell">
+          <img class="carousel-cell-image"
+               data-flickity-lazyload="{{ photo.url }}" alt="image" />
+          <div class="carousel-cell-caption">{{ photo.caption }}</div>
+        </div>
+        {% endfor %}
+      </div>
+
+      <h2 class="first">参加者の声</h2>
+
+      {% for voice in year.voices %}
+      <div>
+        <p>{{ voice.name }}さん({{ voice.sub }})</p>
+        <p>{{ voice.message }}</p>
+      </div>
+      {% endfor %}
+
     </section>
+    {% endfor %}
+
+<style type="text/css">
+
+* { box-sizing: border-box; }
+
+body { font-family: sans-serif; }
+
+.carousel {
+  margin: 50px 0px;
+}
+
+.carousel-cell {
+  height: 300px;
+  width: 90%;
+  margin-right: 10px;
+  background: #333;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and ( max-width: 700px ) {
+  .carousel-cell { 
+    height: 200px; 
+  }
+}
+
+.carousel-cell-image {
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.carousel-cell-caption {
+  position: absolute;
+  width: 100%;
+  padding: 2%;
+  left: 0;
+  bottom: 0;
+  background: rgba(0,0,0,.5);
+  color: #fff;
+  text-shadow: 0 -1px 0 rgba(0,0,0,.3);
+}
+
+/* fade in lazy loaded image */
+.carousel-cell-image.flickity-lazyloaded,
+.carousel-cell-image.flickity-lazyerror {
+  opacity: 1;
+}
+</style>
+
 
     <section id="fifth" class="black-frame about about-container about-container-bottom">
       <h1>About</h1>
