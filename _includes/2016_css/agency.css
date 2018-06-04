@@ -333,6 +333,10 @@ fieldset[disabled] .btn-xl.active {
     .navbar-default.navbar-shrink .navbar-brand {
         font-size: 1.5em;
     }
+
+    .navbar-default .navbar-static {
+        font-size: 1.5em;
+    }
 }
 
 header {
@@ -373,7 +377,7 @@ header .intro-text .intro-lead-in {
 }
 
 header .intro-text .intro-heading {
-    padding-top: 20%;
+    padding-top: 100px;
     margin-bottom: 25px;
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
