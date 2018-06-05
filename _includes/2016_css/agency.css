@@ -386,10 +386,10 @@ header .intro-text .intro-heading {
     line-height: 40px;
 }
 
+/* 幅768px 以上の画面 */
 @media(min-width:768px) {    
     header .intro-text {
         padding-top: 10%;
-        padding-bottom: 200px;
     }
 
     header .intro-text .intro-lead-in {

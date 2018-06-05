@@ -48,6 +48,18 @@
 
              {% endfor %}
 
+
+             {% if section.notes %}
+               <hr class="star-primary">
+               <h2>注意事項</h2>
+               {% for note in section.notes %}
+               <h3>{{ note.title }}</h3>
+                 {% for text in note.text %}
+                   <p>{{ text.body }}</p>
+                 {% endfor %}
+               {% endfor %}
+             {% endif %}
+
              <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> 閉じる</button>
            </div>
          </div>
