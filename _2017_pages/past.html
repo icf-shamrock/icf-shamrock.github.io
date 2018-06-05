@@ -10,139 +10,142 @@ title: 過去のICFについて
 
     <section id="conference" class="black-frame about about-container about-container-top">
       <h1>{{ page.title }}</h1>
-
-
-      <h2 class="first">第9回開催概要</h2>
-
-
+      <p>過去のICFについての情報です。</p>
+      <ul>
+      {% for year in site.data.past %}
+      <li><a href="#{{ year.id }}">{{ year.name }}</a></li>
+      {% endfor %}
+      </ul>
     </section>
 
-
     {% for year in site.data.past %}
-    <section id="fourth" class="black-frame about about-container">
+    <section id="{{ year.id }}" class="black-frame about about-container">
       <h1>{{ year.name }} 開催概要</h1>
       <p>{{ year.description }}</p>
       <p>主催: {{ year.host }}</p>
       <p>会場: {{ year.site }}</p>
 
+      {% if year.features %}
       <h2 class="first">新たな取り組み</h2>
       <ul>
         {% for feature in year.features %}
         <li>{{ feature.text }}</li>
         {% endfor %}
       </ul>
+      {% endif %}
 
       <h2 class="first">参加者内訳</h2>
       <p>全体参加人数 {{ year.data.total }}名 (男性 {{ year.data.male }}名、女性 {{ year.data.female }}名)</p>
       <div id="canvas-holder" style="width:100%; height: 350px;">
-        <canvas id="chart-8"></canvas>
+        <canvas id="chart-{{ year.id }}"></canvas>
       </div>
+
       <script> 
-var ctx = document.getElementById("chart-8").getContext('2d');
-var labels = {{ year.data.university.label }}
-var data = {{ year.data.university.number }}
-var myChart = new Chart(ctx, {
-  type: 'pie',
-  data: {
-    labels: labels,
-    datasets: [{
-      label: '人数',
-      data: data,
-      backgroundColor: [
-        'rgba(255, 99, 132, 0.2)',
-        'rgba(255, 99, 132, 0.2)',
-        'rgba(54, 162, 235, 0.2)',
-      ]
-    }]
-  },
-  options: {
-    responsive: true,
-    maintainAspectRatio: false
-  }
-});
+        var ctx = document.getElementById("chart-{{ year.id }}").getContext('2d');
+        var labels = {{ year.data.university.label }}
+        var data = {{ year.data.university.number }}
+        var myChart = new Chart(ctx, {
+          type: 'pie',
+          data: {
+            labels: labels,
+            datasets: [{
+              label: '人数',
+              data: data,
+              backgroundColor: [
+                'rgba(255, 99, 132, 0.2)',
+                'rgba(54, 162, 235, 0.2)',
+                'rgba(189, 183, 75, 0.2)',
+                'rgba(121, 197, 133, 0.2)',
+                'rgba(74, 114, 73, 0.2)',
+                'rgba(249, 28, 224, 0.2)',
+                'rgba(245, 108, 134, 0.2)',
+                'rgba(151, 155, 45, 0.2)',
+                'rgba(90, 190, 229, 0.2)',
+                'rgba(181, 222, 11, 0.2)',
+                'rgba(89, 80, 166, 0.2)',
+                'rgba(182, 45, 159, 0.2)',
+                'rgba(247, 67, 209, 0.2)',
+                'rgba(200, 215, 103, 0.2)',
+              ]
+            }]
+          },
+          options: {
+            responsive: true,
+            maintainAspectRatio: false
+          }
+        });
     </script>
 
 
-      <h2 class="first">写真</h2>
+    <h2 class="first">プログラム詳細</h2>
 
-      <div class="carousel"
-           data-flickity='{ "lazyLoad": true, "cellAlign": "center" }'>
-        {% for photo in year.photos %}
-        <div class="carousel-cell">
-          <img class="carousel-cell-image"
-               data-flickity-lazyload="{{ photo.url }}" alt="image" />
-          <div class="carousel-cell-caption">{{ photo.caption }}</div>
-        </div>
-        {% endfor %}
-      </div>
+    <table class="agenda">
+      <thead>
+        <tr>
+          <th class="row-1 agenda-activity"><center>日付</center></th>
+          <th class="row-1 agenda-activity"><center>午前</center></th>  
+          <th class="row-1 agenda-activity"><center>午後</center></th>  
+          <th class="row-1 agenda-activity"><center>夜</center></th>  
+        </tr>
+      </thead>
+      {% for day in year.schedule %}
+      <tr>
+        <td>{{ day.day }}</td>
+        <td>{{ day.am }}</td>
+        <td>{{ day.pm }}</td>
+        <td>{{ day.night }}</td>
+      </tr>           
+      {% endfor %}
+    </table>
 
-      <h2 class="first">参加者の声</h2>
+    {% for day in year.classes %}
+    <h3>{{ day.day }}</h3>
+    <table class="agenda">
+      <thead>
+        <tr>
+          <th class="row-1 agenda-activity"><center>クラス</center></th>  
+          <th class="row-1 agenda-activity"><center>講師</center></th>  
+          {% if day.classes[0].participants %}
+          <th class="row-1 agenda-activity"><center>参加者数</center></th>  
+          {% endif %}
+        </tr>
+      </thead>
+      {% for class in day.classes %}
+      <tr>
+        <td>{{ class.title }}</td>
+        <td>{{ class.teacher }}</td>
+        {% if class.participants %}
+        <td>{{ class.participants }}</td>
+        {% endif %}
+      </tr>           
+      {% endfor %}
+    </table>
+    {% endfor %}
 
-      {% for voice in year.voices %}
-      <div>
-        <p>{{ voice.name }}さん({{ voice.sub }})</p>
-        <p>{{ voice.message }}</p>
+    <h2 class="first">写真</h2>
+
+    <div class="carousel"
+         data-flickity='{ "lazyLoad": true, "cellAlign": "center" }'>
+      {% for photo in year.photos %}
+      <div class="carousel-cell">
+        <img class="carousel-cell-image"
+             data-flickity-lazyload="{{ photo.url }}" alt="image" />
+        <div class="carousel-cell-caption">{{ photo.caption }}</div>
       </div>
       {% endfor %}
+    </div>
+
+    {% if year.voices %}
+    <h2 class="first">参加者の声</h2>
+    <p>所属は参加当時のものになります。</p>
+
+    {% for voice in year.voices %}
+    <div>
+      <h4>{{ voice.name }}さん({{ voice.sub }})</h4>
+      <p>{{ voice.message }}</p>
+    </div>
+    {% endfor %}
+    {% endif %}
 
     </section>
     {% endfor %}
-
-<style type="text/css">
-
-* { box-sizing: border-box; }
-
-body { font-family: sans-serif; }
-
-.carousel {
-  margin: 50px 0px;
-}
-
-.carousel-cell {
-  height: 300px;
-  width: 90%;
-  margin-right: 10px;
-  background: #333;
-  border-radius: 5px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-@media screen and ( max-width: 700px ) {
-  .carousel-cell { 
-    height: 200px; 
-  }
-}
-
-.carousel-cell-image {
-  width: auto;
-  height: auto;
-  max-width: 100%;
-  max-height: 100%;
-}
-
-.carousel-cell-caption {
-  position: absolute;
-  width: 100%;
-  padding: 2%;
-  left: 0;
-  bottom: 0;
-  background: rgba(0,0,0,.5);
-  color: #fff;
-  text-shadow: 0 -1px 0 rgba(0,0,0,.3);
-}
-
-/* fade in lazy loaded image */
-.carousel-cell-image.flickity-lazyloaded,
-.carousel-cell-image.flickity-lazyerror {
-  opacity: 1;
-}
-</style>
-
-
-    <section id="fifth" class="black-frame about about-container about-container-bottom">
-      <h1>About</h1>
-
-      <p>Info</p>
-    </section>
