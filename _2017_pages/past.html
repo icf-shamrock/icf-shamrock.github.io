@@ -35,7 +35,11 @@ title: 過去のICFについて
       {% endif %}
 
       <h2 class="first">参加者内訳</h2>
+      {% if year.data.male %}
       <p>全体参加人数 {{ year.data.total }}名 (男性 {{ year.data.male }}名、女性 {{ year.data.female }}名)</p>
+      {% else %}
+      <p>全体参加人数 {{ year.data.total }}名</p>
+      {% endif %}
       <div id="canvas-holder" style="width:100%; height: 350px;">
         <canvas id="chart-{{ year.id }}"></canvas>
       </div>

@@ -77,8 +77,6 @@
           participants: "77"
   data:
     total: 119
-    male: '?'
-    female: '?'
     university:
       label:  "['信州大学 S-Celts','東京大学 UT-Fuaim','東京芸大 g-celt','One More Pint(京都)','早稲田大学 わせける', '岩手大学 i-celt', '慶應大学 k-celt','筑波大学 T-celt', 'ICU Rince', '東北大学','東京理科大学', '名古屋大学', '大阪芸術大学', 'DCU', 'その他']"
       number: "[15, 12, 9, 8, 7, 5, 5, 5, 2, 1, 1, 1, 1, 1, 46]"

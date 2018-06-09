@@ -249,8 +249,9 @@ fieldset[disabled] .btn-xl.active {
 /* headerのbrandロゴのフォント */
 .navbar-default .navbar-brand {
     font-family: 'Libre Baskerville','Kaushan Script','Helvetica Neue',Helvetica,Arial,cursive;
+    display: flex;
+    align-items: center; 
     color: #{{ site.data.template.color.primary }};
-    
 }
 
 .navbar-default .navbar-brand:hover,
@@ -261,7 +262,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-brand .navbar-brand-text {
-  background: #f00
+  padding-left: 10px;
 }
 
 .navbar-default .navbar-collapse {
