@@ -250,6 +250,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand {
     font-family: 'Libre Baskerville','Kaushan Script','Helvetica Neue',Helvetica,Arial,cursive;
     color: #{{ site.data.template.color.primary }};
+    
 }
 
 .navbar-default .navbar-brand:hover,
@@ -257,6 +258,10 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
     color: #{{ site.data.template.color.secondary }};
+}
+
+.navbar-default .navbar-brand .navbar-brand-text {
+  background: #f00
 }
 
 .navbar-default .navbar-collapse {
