@@ -947,3 +947,14 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #{{ site.data.template.color.primary }};
 }
+
+.twitter-widget-wrap {
+  width: 700px;
+}
+
+@media(max-width:700px) {
+  .twitter-widget-wrap {
+    width: 100%;
+  }
+}
+
