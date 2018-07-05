@@ -5,9 +5,12 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://icf-shamrock.com" # the base hostname & protocol for your site
 # Build settings
 markdown: kramdown
+image: "../css/2017_style/img/card.png"
 
-seo_tag: 
-  image: "../css/2017_style/img/card.png"
+# seo_tag: 
+#   site_title: "ICF - Intercollegiate Celtic Festival - 公式ホームページ" 
+#   image: 
+#     path: "../css/2017_style/img/card.png"
 
 lang: "ja"
 
