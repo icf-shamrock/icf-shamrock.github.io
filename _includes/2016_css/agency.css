@@ -359,9 +359,9 @@ header {
 
 /* 透過のスモークフィルター */
 header .filter {
-  background-color: rgba(0, 0, 0, 0.5);
-  height: 100%;
-  content: "";
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100%;
+    content: "";
 }
 
 header .container {
@@ -369,9 +369,16 @@ header .container {
     color: #fff;
 }
 
+header .intro-container {
+    /* ちょうど中央に表示 */
+    height: 100%;
+    width: 100%;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
 header .intro-text {
-    padding-top: 25vh;
-    padding-bottom: 50px;
 }
 
 header .intro-text .intro-lead-in {
@@ -395,7 +402,6 @@ header .intro-text .intro-heading {
 /* 幅768px 以上の画面 */
 @media(min-width:768px) {    
     header .intro-text {
-        padding-top: 10%;
     }
 
     header .intro-text .intro-lead-in {
