@@ -510,6 +510,27 @@ section h3.section-subheading {
     background-color: #fff;
 }
 
+.speakers .speakers-item .speakers-link .speakers-cover-image img {
+  width: 100%;
+  object-fit: cover;
+  filter: grayscale(100%) brightness(70%);
+}
+.speakers .speakers-item .speakers-link .speakers-cover-image img:after {
+  padding-top: 75%;
+  display: block;
+  content: "";
+}
+.speakers .speakers-item .speakers-link .speakers-cover-image:after {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  content: attr(data-text);
+  font-family: 'Baskerville';
+  color: white;
+  font-size: 2em;
+}
+
 .speakers .speakers-item .speakers-caption h4 {
     margin: 0;
     text-transform: none;
