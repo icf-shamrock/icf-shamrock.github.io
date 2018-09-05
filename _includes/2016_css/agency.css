@@ -348,7 +348,7 @@ fieldset[disabled] .btn-xl.active {
 header {
     height: 100vh;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/css/2017_style/img/header-bg.jpg');
+    background-image: url('{{ site.baseurl }}/css/2017_style/img/header-bg-10.jpg');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
