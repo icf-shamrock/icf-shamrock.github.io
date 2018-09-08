@@ -357,6 +357,14 @@ header {
     -o-background-size: cover;
 }
 
+/* retina */
+@media screen and (-webkit-min-device-pixel-ratio:2),
+                  (min-resolution: 2dppx){
+  header {
+    background-image: url('{{ site.baseurl }}/css/2017_style/img/header-bg-10@2x.jpg');
+  }
+}
+
 /* 透過のスモークフィルター */
 header .filter {
     background-color: rgba(0, 0, 0, 0.5);
