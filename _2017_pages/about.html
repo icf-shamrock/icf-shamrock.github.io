@@ -98,3 +98,28 @@ title: ICFについて
 
     </section>
 
+    <section id="terms" class="black-frame about about-container">
+      <h1>運営規約</h1>
+      <p>Intercollegiate Celtic Festival実行委員会運営規約</p>
+      <ol>
+      {% for term in site.data.terms %}
+      <li>{{ term.title }}
+        <div>{{ term.text }}</div>
+        <ol>
+          {% for statement in term.statements %}
+          <li>{{ statement.text }}
+            {% if statement.statements %}
+            <ol>
+              {% for st2 in statement.statements %}
+              <li>{{ st2.text }}</li>
+              {% endfor %}
+            </ol>
+            {% endif %}
+          </li>
+          {% endfor %}
+        </ol>
+      </li>
+      {% endfor %}
+      </ol>
+
+    </section>
