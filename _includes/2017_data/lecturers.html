@@ -9,41 +9,17 @@
             </div>
             <div class="row" style="display: flex; flex-wrap: wrap;">
 
-              <!-- card  -->
+              {% for lecturer in site.data.lecturers %}
                 <div class="col-md-4 col-sm-4 col-xs-12 speakers-item">
                     <div class="speakers-link">
-                      <img src="../css/2017_style/img/teachers/taka.jpg" class="img-responsive img-centered" alt="">
+                      <img src="{{ lecturer.image }}" class="img-responsive img-centered" alt="">
                     </div>
                     <div class="speakers-caption">
-                      <h4>Taka</h4>
-                      <p class="text-muted">2010年から2011年にかけてアイルランドの西部クレア州の「フィークル村」に滞在。ティンホイッスルを皮切りにマンドリンやバンジョー、フィドル(ヴァイオリン)の演奏法を学ぶ。2015年にアイルランド公認のアイルランド伝統音楽の認定講師資格試験「TTCT Exam」に日本人として初めて合格。現在は演奏やレッスンを通じてアイルランド音楽の普及と発展に努めている。</p> 
+                      <h4>{{ lecturer.name }}</h4>
+                      <p class="text-muted">{{ lecturer.text }}</p>
                     </div>
                 </div>
-              <!-- card end  -->
-
-              <!-- card  -->
-                <div class="col-md-4 col-sm-4 col-xs-12 speakers-item">
-                    <div class="speakers-link">
-                      <img src="../css/2017_style/img/teachers/toyota.jpg" class="img-responsive img-centered" alt="">
-                    </div>
-                    <div class="speakers-caption">
-                      <h4>豊田 耕三</h4>
-                      <p class="text-muted">アイリッシュ・フルート＆ティン・ホイッスル奏者。東京芸術大学卒業、同大学大学院修士課程修了。2005年、東京藝術大学ケルト音楽研究部（g-celt）を創設。2016年アイルランドで開催された伝統音楽の祭典フラー・キョールのコンペティションで、ティン・ホイッスル・スローエアー部門3位入賞（アジア人初）。2017年テレビ朝日「題名のない音楽会」出演。2010年、Intercollegiate Celtic Festivalを立案し、学生と共に立ち上げる。以降アドバイザー及び講師を兼任。</p> 
-                    </div>
-                </div>
-              <!-- card end  -->
-
-              <!-- card  -->
-                <div class="col-md-4 col-sm-4 col-xs-12 speakers-item">
-                    <div class="speakers-link">
-                      <img src="../css/2017_style/img/teachers/hajime.jpg" class="img-responsive img-centered" alt="">
-                    </div>
-                    <div class="speakers-caption">
-                      <h4>高橋 創</h4>
-                      <p class="text-muted">2010年からアイルランドへ拠点を移し現地で伝統音楽を学ぶ。Friel SistersやLiam O’Brienなどアイルランドの実力ある若手音楽家たちと多数共演。日本人ならではの繊細な感性、鋭さと温もりを併せ持つ変幻自在な演奏スタイルが高く評価されている気鋭のギタリスト。</p> 
-                    </div>
-                </div>
-              <!-- card end  -->
+              {% endfor %}
 
             </div>
         </div>
