@@ -15,8 +15,16 @@
   image: "../css/2017_style/img/teachers/mikie.jpeg"
 
 - name: 権藤 英美里
-  text: 東京藝術大学音楽学部楽理科卒業。幼少期よりヴァイオリンを習い、大学のサークル"g-celt"でアイルランド音楽に出会う。Toyota Ceili BandやDularinn、ANONAを始めさまざまなユニットでフィドルや歌など幅広く活動している。
+  text: 東京藝術大学音楽学部楽理科卒業。幼少期よりヴァイオリンを習い、大学のサークル”g-celt”でアイルランド音楽に出会う。Toyota Ceili Band、スコティッシュバンドのDúlarinn、コーラスグループANONA、など、フィドルや歌で幅広く活動している
   image: "../css/2017_style/img/teachers/gondo.jpeg"
+
+- name: 田中 千尋
+  text: 東京藝術大学音楽学部楽理科卒業。学内サークルg-celtにてアイルランド音楽と出会い、ボタンアコーディオンを独学で学び始める。現在、関東圏のアイリッシュパブやカフェ、イベントでの演奏、ケーリーでの伴奏、セッションホストなどをメインに活動中。Toyota Ceili Band、セツメロゥズ、Leanbhに所属。
+  image: "../css/2017_style/img/teachers/tanaka.png"
+
+- name: 吉田 万紀
+  text: 東京芸術大学楽理科卒業。在学中に同大学ケルト音楽研究部(g-celt)にてアイルランド音楽に出会い、2013年よりコンサーティーナを始める。その後、日本国内・アイルランドでのワークショップ等に参加し、国内外の奏者からコンサーティーナを学ぶ。
+  image: "../css/2017_style/img/teachers/yoshida.png"
 
 # dance
 - name: 寺田 まり子
