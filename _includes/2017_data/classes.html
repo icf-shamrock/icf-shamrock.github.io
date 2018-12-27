@@ -12,7 +12,7 @@
 
               {% for section in site.data.classes %}
               <div class="col-md-6 col-sm-6 col-xs-12 speakers-item">
-                <a href="#{{ section.type }}" class="speakers-link" data-toggle="modal">
+                <a href="#{{ section.type }}" class="speakers-link" data-toggle="modal" data-target="#{{ section.type }}">
                   <div class="speakers-hover">
                     <div class="speakers-hover-content">
                       <i class="fa fa-plus fa-3x"></i>
@@ -41,3 +41,4 @@
             </div>
         </div>
     </section>
+

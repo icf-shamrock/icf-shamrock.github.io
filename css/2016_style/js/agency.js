@@ -35,3 +35,8 @@ $('div.modal').on('show.bs.modal', function() {
 		}
 	}
 });
+
+// open modal by url hash
+if (location.hash) {
+  $(location.hash).modal('show');
+}
