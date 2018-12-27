@@ -22,32 +22,57 @@
              <img src="../css/2017_style/img/speaker/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
 
              {% for class in section.classes %}
+               <div style="margin: 5em 0em;">
+               <h2>{{ class.name }}</h2>
+               <hr class="star-primary">
 
-             <div style="margin: 5em 0em;">
-             <h2>{{ class.name }}</h2>
-             <hr class="star-primary">
-             <h4>講師</h4>
-             <p>{{ class.teacher }}
-             {% if class.web %}
-             (<a href="{{ class.web }}">web</a>)
-             {% endif %}
-             </p>
+               {% if class.all %}
+                 {% if section.all %}
+                   <h4>{{ section.all }}:</h4>
+                 {% endif %}
+                 <p>{{ class.teacher }}
+                 {% if class.web %} (<a href="{{ class.web }}">web</a>) {% endif %}
+                 </p>
+                 {% if class.best_for %}
+                 <h4>対象者</h4>
+                 <p>{{ class.best_for }}</p>
+                 {% endif %}
+                 <p>{{ class.description }}</p>
+               {% else %}
 
-             {% if class.best_for %}
-             <h4>対象者</h4>
-             <p>{{ class.best_for }}</p>
-             {% endif %}
+                 {% if class.first %}
+                   <h4>{{ section.first }}: {{ class.first.title }}</h4>
+                   <p>{{ class.first.teacher }}
+                   {% if class.first.web %} (<a href="{{ class.first.web }}">web</a>) {% endif %}
+                   </p>
+                   {% if class.first.best_for %}
+                   <h4>対象者</h4>
+                   <p>{{ class.first.best_for }}</p>
+                   {% endif %}
+                   <p>{{ class.first.description }}</p>
+                 {% endif %}
 
-             <p>{{ class.description }}</p>
+                 {% if class.second %}
+                   <h4>{{ section.second }}: {{ class.second.title }}</h4>
+                   <p>{{ class.second.teacher }}
+                   {% if class.second.web %} (<a href="{{ class.second.web }}">web</a>) {% endif %}
+                   </p>
+                   {% if class.second.best_for %}
+                   <h4>対象者</h4>
+                   <p>{{ class.second.best_for }}</p>
+                   {% endif %}
+                   <p>{{ class.second.description }}</p>
+                 {% endif %}
 
-             {% if class.html %}
-             <h4>課題曲</h4>
-             {{ class.html }}
-             {% endif %}
-             </div>
+               {% endif %}
 
+
+               {% if class.html %}
+                 <h4>課題曲</h4>
+                 {{ class.html }}
+               {% endif %}
+               </div>
              {% endfor %}
-
 
              {% if section.notes %}
                <hr class="star-primary">
