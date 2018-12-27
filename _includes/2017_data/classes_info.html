@@ -71,6 +71,12 @@
                  <h4>課題曲</h4>
                  {{ class.html }}
                {% endif %}
+
+               {% if class.note %}
+                 <h4>注意</h4>
+                 <p>{{ class.note }}</p>
+               {% endif %}
+
                </div>
              {% endfor %}
 
