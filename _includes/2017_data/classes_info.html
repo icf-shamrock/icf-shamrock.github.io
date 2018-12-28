@@ -15,11 +15,10 @@
 
              <h1>{{ section.title }} </h1>
              {% if section.description_detail %}
-             <p>{{ section.description_detail }}</p>
+               <p>{{ section.description_detail }}</p>
              {% endif %}
 
              <hr class="star-primary">
-             <img src="../css/2017_style/img/speaker/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}">
 
              {% for class in section.classes %}
                <div style="margin: 5em 0em;">
@@ -27,17 +26,19 @@
                <hr class="star-primary">
 
                {% if class.all %}
+
                  {% if section.all %}
-                   <h4>{{ section.all }}:</h4>
+                   <h4>{{ section.all }}: {{ class.title }}</h4>
                  {% endif %}
                  <p>{{ class.teacher }}
                  {% if class.web %} (<a href="{{ class.web }}">web</a>) {% endif %}
                  </p>
                  {% if class.best_for %}
-                 <h4>対象者</h4>
-                 <p>{{ class.best_for }}</p>
+                   <h4>対象者</h4>
+                   <p>{{ class.best_for }}</p>
                  {% endif %}
                  <p>{{ class.description }}</p>
+
                {% else %}
 
                  {% if class.first %}
@@ -46,8 +47,8 @@
                    {% if class.first.web %} (<a href="{{ class.first.web }}">web</a>) {% endif %}
                    </p>
                    {% if class.first.best_for %}
-                   <h4>対象者</h4>
-                   <p>{{ class.first.best_for }}</p>
+                     <h4>対象者</h4>
+                     <p>{{ class.first.best_for }}</p>
                    {% endif %}
                    <p>{{ class.first.description }}</p>
                  {% endif %}
@@ -58,8 +59,8 @@
                    {% if class.second.web %} (<a href="{{ class.second.web }}">web</a>) {% endif %}
                    </p>
                    {% if class.second.best_for %}
-                   <h4>対象者</h4>
-                   <p>{{ class.second.best_for }}</p>
+                     <h4>対象者</h4>
+                     <p>{{ class.second.best_for }}</p>
                    {% endif %}
                    <p>{{ class.second.description }}</p>
                  {% endif %}
@@ -84,7 +85,7 @@
                <hr class="star-primary">
                <h2>注意事項</h2>
                {% for note in section.notes %}
-               <h3>{{ note.title }}</h3>
+                 <h3>{{ note.title }}</h3>
                  {% for text in note.text %}
                    <p>{{ text.body }}</p>
                  {% endfor %}

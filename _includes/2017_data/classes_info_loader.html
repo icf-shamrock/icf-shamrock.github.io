@@ -1,0 +1,8 @@
+<script>
+  // open modal by url hash
+  {% for section in site.data.classes %}
+  if (location.hash && location.hash == "#{{ section.type }}") {
+    $(location.hash).modal('show');
+  }
+  {% endfor %}
+</script>

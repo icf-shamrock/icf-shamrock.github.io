@@ -19,16 +19,22 @@ published: true
             <thead>
             <tr>
                 <th class="row-1 agenda-activity"><center>時間</center></th>
-                <th class="row-1 agenda-activity"><center></center></th>  
-                <th class="row-2 agenda-time"><center>説明</center></th>  
+                <th class="row-1 agenda-activity"><center></center></th>
+                <th class="row-2 agenda-time"><center>説明</center></th>
             </tr>
             </thead>
             {% for event in day.events %}
             <tr>
-              <td>{{event.date}}</td>
-              <td>{{event.title}}</td>
-              <td>{{event.description}}</td>
-            </tr>           
+              <td>{{ event.date }}</td>
+              {% if event.hover %}
+                <td><a href="#{{ event.hover }}" data-toggle="modal">{{event.title}}</a></td>
+              {% elsif event.href %}
+                <td><a href="{{ event.href }}">{{event.title}}</a></td>
+              {% else %}
+                <td>{{event.title}}</td>
+              {% endif %}
+              <td>{{ event.description }}</td>
+            </tr>
             {% endfor %}
         </table>
       {% endfor %}
@@ -37,7 +43,6 @@ published: true
       <h2>宿泊に関する注意事項</h2>
       <p>10日（開催前日）、11日、12日の夜にオリンピックセンターに宿泊することができます。</p>
       <p>なお宿泊のお部屋数に限りがございます。宿泊に関しては先着で受付致しますので、ご希望の方はお早めにお申し込みください。</p>
-      <!-- <p>また、宿泊のお部屋は原則相部屋となっております。希望者のみ個室もございますが、11日は男女10名ずつ、12日、13日は男女15名ずつのみと数が限られておりますのでお早めにお申込み下さい。</p> -->
-      <!-- <p>前泊者用に11日の夜間、オリンピックセンターの小練習室を予約しております。セッション、ご歓談に是非ご利用ください！前日から楽しみましょう！</p> -->
     </div>
+
 
