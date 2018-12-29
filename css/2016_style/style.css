@@ -47,3 +47,8 @@ layout: 2016_style
 .carousel-cell-image.flickity-lazyerror {
   opacity: 1;
 }
+
+
+.register-button {
+  margin: 10px;
+}

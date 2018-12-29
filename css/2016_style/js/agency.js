@@ -38,5 +38,6 @@ $('div.modal').on('show.bs.modal', function() {
 
 // remove hash of url when closing modal
 $('div.modal').on('hidden.bs.modal', function() {
-  window.location.hash = '';
+  // window.location.hash = '';
+  history.pushState('', document.title, window.location.pathname);
 });
