@@ -84,14 +84,18 @@
         - body: "汗をかくのでできれば着替え、汗を拭くものをお持ちください。"
         - body: "更衣室はとくに用意されていません。各自化粧室や宿泊する部屋で着替えてください。"
   classes:
-    - name: "Corofin Plain Set"
+    - name: "Corofin Plain Set クラス"
       all: true
       teacher: "寺田まり子"
       description: "ウオームアップ5分・基礎の「き」10分・ ReelとJig基礎ステップ40〜45分・Corofin Plain Set 60分(休憩コミ)"
-    - name: "Borlin Valley Set"
+    - name: "Borlin Valley Set クラス"
       all: true
       teacher: "寺町靖子"
       description: "セットダンスの基礎知識（歴史・スタイル）20分・ウォーミングアップ 10分・ポルカ基礎ステップと基本ムーブメント30分・Borlin Valley Polka Set 60分（休憩コミ）"
+    - name: "セットダンス研究会"
+      all: true
+      teacher: "若林 光虎"
+      description: "人数の都合上、中級者以上はダンス研究会に振り分けられる可能性がございます。研究会では普段踊らない珍しいセットを覚えるなど中〜上級者向けのケーリーをします。"
 
 - type: "theme"
   title: "3/11 夜の部 テーマ別クラス"
