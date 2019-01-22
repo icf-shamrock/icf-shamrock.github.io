@@ -78,6 +78,13 @@
                  <p>{{ class.note }}</p>
                {% endif %}
 
+               {% if class.notes %}
+                 <h4>注意</h4>
+                 {% for text in class.notes %}
+                   <p>{{ text.body }}</p>
+                 {% endfor %}
+               {% endif %}
+
                </div>
              {% endfor %}
 
