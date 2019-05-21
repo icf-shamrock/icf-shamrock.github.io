@@ -9,9 +9,11 @@ published: true
         document.write ('<body style="background: Gainsboro; background-attachment: fixed;">')
     </script>
 
+
     <div class="event black-frame">
       <h1>{{ page.title }}</h1>
-      <p>第10回の大まかなスケジュールです！</p>
+      <p>第11回の大まかなスケジュールです！</p>
+
 
       {% for day in site.data.schedule %}
       <h2>{{day.title}} | {{day.date}}</h2>
@@ -27,7 +29,7 @@ published: true
             <tr>
               <td>{{ event.date }}</td>
               {% if event.hover %}
-                <td><a href="#{{ event.hover }}" data-toggle="modal">{{event.title}}</a></td>
+                <td><a href="#{{ event.hover }}" data-toggle="modal" data-target="#{{ event.hover }}">{{ event.title }}</a></td>
               {% elsif event.href %}
                 <td><a href="{{ event.href }}">{{event.title}}</a></td>
               {% else %}
@@ -45,4 +47,5 @@ published: true
       <p>なお宿泊のお部屋数に限りがございます。宿泊に関しては先着で受付致しますので、ご希望の方はお早めにお申し込みください。</p>
     </div>
 
+    {% include 2017_data/classes_info.html %}
 

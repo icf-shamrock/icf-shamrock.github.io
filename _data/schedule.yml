@@ -5,6 +5,7 @@
       title: "ケーリー by Toyota Ceili Band"
     - date: "17:30～"
       title: "ごはん交流会"
+      description: "オリンピックセンター内「レストランとき」にて"
     - date: ""
       title: "宿泊"
 
@@ -13,10 +14,10 @@
   events:
     - date: "9:00～12:00"
       title: "ダンスクラス&講師ライブ"
-      href: "/#dance"
+      hover: "dance"
     - date: "13:00～17:00"
       title: "楽器クラス①/楽器別ギャザリング"
-      href: "/#instruments"
+      hover: "instruments"
     - date: "18:00～22:00"
       title: "交流会＆セッション"
     - date: ""
@@ -26,8 +27,8 @@
   title: "3日目"
   events:
     - date: "9:00～12:00"
-      title: "楽器クラス②・アイルランド音楽入門クラス/自由研究会"
-      href: "/#instruments"
+      title: "楽器クラス②/アイルランド音楽入門クラス/自由利用部屋"
+      hover: "instruments"
     - date: "13:00～17:00"
       title: "ケーリー by Necoze Ceili Band"
     - date: "18:00～"
