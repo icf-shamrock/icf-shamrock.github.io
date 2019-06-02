@@ -146,8 +146,25 @@ title: 過去のICFについて
     {% for voice in year.voices %}
     <div>
       <h4>{{ voice.name }}さん({{ voice.sub }})</h4>
+      <cite>〜できましたか？</cite>
       <p>{{ voice.message }}</p>
     </div>
+    {% endfor %}
+    {% endif %}
+
+    {% if year.voicesByTopic %}
+    <h2 class="first">参加者の声</h2>
+    <p>所属は参加当時のものになります。</p>
+    {% for topic in year.voicesByTopic %}
+      <div>
+        <h3>「{{ topic.question }}」</h3>
+        {% for voice in topic.answers %}
+        <div>
+          <h4>{{ voice.name }}さん({{ voice.sub }})</h4>
+          <p>{{ voice.message }}</p>
+        </div>
+        {% endfor %}
+      </div>
     {% endfor %}
     {% endif %}
 
