@@ -994,3 +994,6 @@ body {
   }
 }
 
+.twitter-widget-wrap iframe {
+  width: 740px !important;
+}
