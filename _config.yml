@@ -45,3 +45,6 @@ social:
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+# listen on all network interfaces (for debugging on iOS real devices)
+host: 0.0.0.0
