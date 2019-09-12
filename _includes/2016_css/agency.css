@@ -105,6 +105,10 @@ aside.clients,
     background-color: #f7f7f7;
 }
 
+.bg-light-gray {
+    background-color: #f7f7f7;
+}
+
 .bg-darkest-gray {
     background-color: #222;
 }
@@ -516,6 +520,16 @@ section h3.section-subheading {
     min-height: 100px;
     text-align: center;
     background-color: #fff;
+}
+
+.speakers .speakers-item .speakers-caption-gray {
+    margin: 0 auto;
+    padding-top: 25px;
+    padding-bottom: 5px;
+    max-width: 500px;
+    min-height: 100px;
+    text-align: center;
+    background-color: #f7f7f7;
 }
 
 /* speakers-cover-image 3人衆(imgをグレースケールにしてフィルターかける、先頭に文字をつける)*/
