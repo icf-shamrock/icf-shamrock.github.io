@@ -66,8 +66,46 @@
                    {% endif %}
                    <p>{{ class.second.description }}</p>
 
-                 {% endif %}
 
+                {% elsif class.all == 'third' %}
+
+                   <h4>{{ section.third }}: {{ class.third.title }}</h4>
+                   <p>{{ class.third.teacher }}
+                   {% if class.third.web %} (<a href="{{ class.third.web }}">web</a>) {% endif %}
+                   </p>
+                   {% if class.third.best_for %}
+                     <h4>対象者</h4>
+                     <p>{{ class.third.best_for }}</p>
+                   {% endif %}
+                   <p>{{ class.third.description }}</p>
+
+
+                {% elsif class.all == 'forth' %}
+
+                   <h4>{{ section.forth }}: {{ class.forth.title }}</h4>
+                   <p>{{ class.forth.teacher }}
+                   {% if class.forth.web %} (<a href="{{ class.second.web }}">web</a>) {% endif %}
+                   </p>
+                   {% if class.forth.best_for then %}
+                     <h4>対象者</h4>
+                     <p>{{ class.forth.best_for }}</p>
+                   {% endif %}
+                   <p>{{ class.forth.description }}</p>
+
+
+                {% elsif class.all == 'fifth' %}
+
+                   <h4>{{ section.fifth }}: {{ class.fifth.title }}</h4>
+                   <p>{{ class.fifth.teacher }}
+                   {% if class.fifth.web %} (<a href="{{ class.second.web }}">web</a>) {% endif %}
+                   </p>
+                   {% if class.fifth.best_for %}
+                     <h4>対象者</h4>
+                     <p>{{ class.fifth.best_for }}</p>
+                   {% endif %}
+                   <p>{{ class.fifth.description }}</p>
+
+                 {% endif %}
                {% endif %}
 
 
