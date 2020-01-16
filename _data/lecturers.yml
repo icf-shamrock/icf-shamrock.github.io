@@ -7,7 +7,7 @@
   image: "../css/2017_style/img/teachers/hatao.jpg"
 
 - name: 田中 千尋
-  text:
+  text: 東京藝術大学音楽学部楽理科卒業。学内サークルg-celtにてアイルランド音楽と出会い、ボタンアコーディオンを独学で学び始める。現在、関東圏のアイリッシュパブやカフェ、イベントでの演奏、ケーリーでの伴奏、セッションホストなどをメインに活動中。Toyota Ceili Band、セツメロゥズ、Leanbhに所属。
   image: "../css/2017_style/img/teachers/tanaka.png"
 
 - name: 権藤 英美里
@@ -15,11 +15,11 @@
   image: "../css/2017_style/img/teachers/gondo.jpeg"
 
 - name: 高橋 創
-  text:
+  text: 2010年からアイルランドへ拠点を移し現地で伝統音楽を学ぶ。Friel SistersやLiam O’Brienなどアイルランドの実力ある若手音楽家たちと多数共演。日本人ならではの繊細な感性、鋭さと温もりを併せ持つ変幻自在な演奏スタイルが高く評価されている気鋭のギタリスト。
   image: "../css/2017_style/img/teachers/hajime.jpg"
 
 - name: Taka
-  text:
+  text: 2010年から2011年にかけてアイルランドの西部クレア州の「フィークル村」に滞在。ティンホイッスルを皮切りにマンドリンやバンジョー、フィドル(ヴァイオリン)の演奏法を学ぶ。2015年にアイルランド公認のアイルランド伝統音楽の認定講師資格試験「TTCT Exam」に日本人として初めて合格。現在は演奏やレッスンを通じてアイルランド音楽の普及と発展に努めている。
   image: "../css/2017_style/img/teachers/taka.jpg"
 
 - name: 中藤 有花
@@ -30,7 +30,7 @@
   text: 弦楽器製作者、ギター奏者。幼い頃よりピアノやギターに親しむ。スペインのEscola Municipal de Artes e Oficios de Vigoの伝統楽器製作所で研修生としてハーディガーディ（サンフォーナ）製作の技術を学ぶ。同時に、ETRAD (Escola Municipal de Música Folk e Tradicional) にて、主にAnxo Pintos（アンショ・ピントス）氏にハーディガーディ演奏、Xosé Liz（ショセ・リス）氏にギター演奏の指導を受ける。現地の様々なイベントに出演。特にBalfolk系のダンスイベントの伴奏を数多く担当した経験から、ガリシアのトラッドだけでなく、フランス各地のフォーク音楽やブルターニュ音楽などを中心に、ヨーロッパの幅広い地域のレパートリーを得意とする。
   image: "../css/2017_style/img/teachers/yoshikawa.jpg"
 
-- name: Ryza
+- name: 斎藤らいざ (Ryza)
   text: 鍵盤アコーディオン弾き。多国籍音楽サークル「出前ちんどん」でアイルランド伝統音楽を始め、2017年にグラスゴーを訪れてからはスコティッシュに傾倒する。大塚Shisui deuxや吉祥寺The Wigtownでスコティッシュセッションを主催。ケルト音楽バンドFrolicks、スコティッシュデュオWagtailsでライブ活動を行う。
   image: "../css/2017_style/img/teachers/ryza.JPG"
 
