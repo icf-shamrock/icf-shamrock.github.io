@@ -1,4 +1,0 @@
-AuthType     Basic
-AuthName     "ICF"
-AuthUserFile ../icf-shamrock.github.io/member/.htpasswd
-require valid-user
