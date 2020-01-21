@@ -137,6 +137,24 @@
         teacher: ""
         description: "自由に使うことのできる部屋です。"
 
+- type: "session"
+  title: "3/11 夜の部<br>セッション・バタリングクラス"
+  image: "../css/2017_style/img/session.jpg"
+  description_detail: "いくつかの部屋に分けれて自由にセッションを行える場、ダンスにもっと熱中したい人のためにバタリングクラスを用意しました。"
+  all: "first"
+  first: "20:00~21:50"
+  classes:
+    - name: "セッション"
+      all: "first"
+      first:
+        description: "自由にセッションができる時間です。"
+
+    - name: "バタリング・ステップクラス"
+      all: "first"
+      first:
+        teacher: "堀円花・寺町靖子"
+        description: "※受講条件：スムース・ステップでreelが踊れる人、コールがあればケーリーで踊れる人。バタリング・ステップの経験は問いません。 ケーリーで愛される”バタラー”になるためのコツや、クレア・スタイルのバタリングについて、実際に体を動かしながら一から丁寧に練習します。"
+
 - type: "class_3"
   title: "3/12 午前の部<br>リズム別/ダンス/音楽/自由部屋"
 

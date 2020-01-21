@@ -22,6 +22,7 @@
       description: "全国から集まった参加者の人たちと交流をしましょう！"
     - date: "20:00~21:50"
       title: "セッション/バタリングクラス"
+      hover: "session"
 
 - date: "2020/3/12(Thu)"
   title: "2日目"
