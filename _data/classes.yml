@@ -42,6 +42,7 @@
       third:
          teacher: "酒井絵美"
          description: "※前後半で内容は変わりません。<br>アイルランドの北東にある国、ノルウェー。アイルランドの音楽とはまた違った楽器、リズム、曲に触れて、新しい発見をしてみませんか？"
+         html: '<iframe width="560" height="315" src="https://www.youtube.com/embed/xhl9C1U-Vb0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
 
     - name: "アイリッシュを知るクラス～録音でたどるアイリッシュ・ミュージックの歩み 蝋管録音から現在まで～"
       all: "second"
