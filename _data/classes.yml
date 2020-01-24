@@ -30,19 +30,21 @@
       third:
         teacher: "齋藤らいざ"
         description: "※前後半で内容は変わりません。<br>英国北部の地域スコットランドの音楽に触れてみませんか？ハイランドバグパイプの影響を強く受けた曲や、ほかの地域にはない独特のリズム「ストラスペイ」など、アイリッシュと似てるけどひと味違うスコティッシュの世界をご紹介します。"
+      html: '<iframe width="560" height="315" src="https://www.youtube.com/embed/mNaddz9cuV8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><iframe width="560" height="315" src="https://www.youtube.com/embed/yLrIG51x3Jg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
 
     - name: "ウェールズを知るクラス"
       all: "first"
       first:
          teacher: "hatao"
          description: "ケルト音楽のひとつ、ウェールズの伝統音楽を学びましょう。地理や歴史、ユニークな楽器や演奏家について解説します。"
+      html: '<iframe width="560" height="315" src="https://www.youtube.com/embed/tYnjyzN5jac" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><iframe width="560" height="315" src="https://www.youtube.com/embed/8DOXT2zUmTU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><iframe width="560" height="315" src="https://www.youtube.com/embed/Yxzgr6_a5Tk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
 
     - name: "ノルウェーを知るクラス"
       all: "third"
       third:
          teacher: "酒井絵美"
          description: "※前後半で内容は変わりません。<br>アイルランドの北東にある国、ノルウェー。アイルランドの音楽とはまた違った楽器、リズム、曲に触れて、新しい発見をしてみませんか？"
-         html: '<iframe width="560" height="315" src="https://www.youtube.com/embed/xhl9C1U-Vb0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+      html: '<iframe width="560" height="315" src="https://www.youtube.com/embed/xhl9C1U-Vb0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
 
     - name: "アイリッシュを知るクラス～録音でたどるアイリッシュ・ミュージックの歩み 蝋管録音から現在まで～"
       all: "second"
@@ -55,6 +57,7 @@
       second:
         teacher: "hatao"
         description: "ケルト音楽のひとつ、ブルターニュの伝統音楽を学びましょう。地理や歴史、ユニークな楽器や演奏家について解説します。"
+      html: '<iframe width="560" height="315" src="https://www.youtube.com/embed/uErRuMhUcDY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
 
 - type: "class_2"
   title: "3/11 午後の部<br>リズム別/ダンス/地域別/音楽/自由部屋"
@@ -114,6 +117,7 @@
       second:
         teachr: "吉川智広"
         discription: "ケルト音楽の一種、ガリシアの音楽に触れてみませんか？アイルランドの音楽とはまた違った楽器、リズム、曲。新しい発見があるかもしれません！楽器をお持ちください。"
+      html: '<iframe width="560" height="315" src="https://www.youtube.com/embed/Z-7Gqi1Mu-o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><iframe width="560" height="315" src="https://www.youtube.com/embed/Ox06b3o6HFM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><iframe width="560" height="315" src="https://www.youtube.com/embed/xdoAf9KBz7U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
 
     - name: "ダンス基本見直しクラス"
       all: "third"
@@ -219,7 +223,7 @@
 
 - type: "dance"
   title: "3/12 午後の部<br>ダンスクラス"
-  description: "男女のペアが4組集まって、音楽に合わせて踊る「セットダンス」。セットダンスが大好きな講師2人による、踊るセットによりクラス2種をご用意しています！"
+
   image: "../css/2017_style/img/classes/dance.jpg"
 
   description_detail: "セットダンスが大好きな講師2人による、基礎～中級者向けクラス2種。初めての方でも安心です！<br>※クラスはアンケートをもとにこちらで割り振らせていただきます。"
