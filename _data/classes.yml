@@ -57,7 +57,7 @@
       second:
         teacher: "hatao"
         description: "ケルト音楽のひとつ、ブルターニュの伝統音楽を学びましょう。地理や歴史、ユニークな楽器や演奏家について解説します。"
-      html: '<iframe width="560" height="315" src="https://www.youtube.com/embed/uErRuMhUcDY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+      html: 'フェスト・ノーズという踊り会の動画で、色々なバンドが見られます。<iframe width="560" height="315" src="https://www.youtube.com/embed/uErRuMhUcDY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
 
 - type: "class_2"
   title: "3/11 午後の部<br>リズム別/ダンス/地域別/音楽/自由部屋"
