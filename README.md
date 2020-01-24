@@ -15,7 +15,7 @@ $ gem install bundler
 ```
 $ git clone https://github.com/icf-shamrock/icf-shamrock.github.io.git
 $ cd icf-shamrock.github.io
-$ bundle install
+$ bundle install --path vendor/bundle
 $ bundle exec jekyll serve
 ```
 
