@@ -236,12 +236,12 @@
       all: "all"
       teacher: "寺町靖子"
       description: "2つのセットを取り上げて踊ります。セットをを覚えて夜のトヨタケーリーを楽しむだけでなく、セットダンスの新しい魅力を発見できるでしょう！"
-      html: '取り扱うセットは両クラスとも<a href="https://setdancepal.firebaseapp.com/#/set/Connemara">Connemara Set</a>と<a href="https://setdancepal.firebaseapp.com/#/set/Castle>Castle Set</a>になります。'
+      html: '取り扱うセットは両クラスとも<a href="https://setdancepal.firebaseapp.com/#/set/Connemara">Connemara Set</a>と<a href="https://setdancepal.firebaseapp.com/#/set/Castle">Castle Set</a>になります。'
     - name: "クラスB"
       all: "all"
       teacher: "寺田まり子"
       description: "2つのセットを取り上げて踊ります。セットをを覚えて夜のトヨタケーリーを楽しむだけでなく、セットダンスの新しい魅力を発見できるでしょう！"
-      html: '取り扱うセットは両クラスとも<a href="https://setdancepal.firebaseapp.com/#/set/Connemara">Connemara Set</a>と<a href="https://setdancepal.firebaseapp.com/#/set/Castle>Castle Set</a>になります。'
+      html: '取り扱うセットは両クラスとも<a href="https://setdancepal.firebaseapp.com/#/set/Connemara">Connemara Set</a>と<a href="https://setdancepal.firebaseapp.com/#/set/Castle">Castle Set</a>になります。'
 
 - type: "class_4"
   title: "3/13 午前の部<br>楽器別ギャザリング/CDケーリー/音楽/自由部屋"
