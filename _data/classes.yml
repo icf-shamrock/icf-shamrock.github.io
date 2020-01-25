@@ -224,6 +224,7 @@
   image: "../css/2017_style/img/classes/dance.jpg"
 
   description_detail: "セットダンスが大好きな講師2人による、基礎～中級者向けクラス2種。初めての方でも安心です！<br>※クラスはアンケートをもとにこちらで割り振らせていただきます。"
+  html: '取り扱うセットは両クラスとも<a href="https://setdancepal.firebaseapp.com/#/set/Connemara">Connemara Set</a>と<a href="https://setdancepal.firebaseapp.com/#/set/Castle>Castle Set</a>になります。'
   notes:
     - title: "ダンスクラスの服装について"
       text:
