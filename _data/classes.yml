@@ -331,6 +331,8 @@
 
     - name: "スプーン＆打楽器研究会"
       all: "first"
+      first:
+        teacher: "飯井大智"
 
     - name: "自由利用部屋"
       all: "first"
