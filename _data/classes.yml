@@ -28,7 +28,7 @@
     - name: "スコティッシュを知るクラス"
       all: "third"
       third:
-        teacher: "齋藤らいざ"
+        teacher: "Ryza"
         description: "※前後半で内容は変わりません。<br>英国北部の地域スコットランドの音楽に触れてみませんか？ハイランドバグパイプの影響を強く受けた曲や、ほかの地域にはない独特のリズム「ストラスペイ」など、アイリッシュと似てるけどひと味違うスコティッシュの世界をご紹介します。"
       html: '<iframe width="560" height="315" src="https://www.youtube.com/embed/mNaddz9cuV8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><iframe width="560" height="315" src="https://www.youtube.com/embed/yLrIG51x3Jg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
 
@@ -97,7 +97,7 @@
     - name: "曲覚えのやり方共有＆セッションクラス"
       all: "first"
       first:
-        teacher: "豊田耕三"
+        teacher: "豊田　耕三"
         description: "皆は曲覚えどうしてるんだろう？耳コピ？tunepal？一曲まとめて覚えてる？フレーズで覚えてる？…より効率的にたのしく曲覚えをするためのヒントを知りたい人向け。セッションあまり行ったことないけどどんな場なんだろう？どうやって楽しんでるんだろう？どうやって入ればいいんだろう？そんな疑問に、実際にセッションをしながらこたえていきます。"
 
     - name: "ブルターニュ音楽を練習するクラス"
@@ -109,7 +109,7 @@
     - name: "イベリア付近のケルト概説クラス"
       all: "fifth"
       fifth:
-        teacher: "吉川　智広"
+        teacher: "Tomo Yoshikawa"
         description: "ガリシア、アストゥリアス、カスティーリャなど、イベリア半島の音楽を概説します！"
 
     - name: "ガリシア音楽を練習するクラス"
