@@ -5,11 +5,12 @@
       title: "前泊セッション"
       description: "遠方から来る多くの人とセッションをしましょう！"
 
-- date: "2020/3/11(Wed)"
+- date: "2020/3/19(Fri)"
   title: "1日目"
   events:
-    - date: "8:50~9:50"
-      title: "講師ライブ"
+    - date: "11:00~12:00"
+      title: "アイルランド武者修行のススメin Sumeer"
+      aorb: "A"
     - date: "10:00~10:50"
       title: "クラス①"
       hover: "instruments"
