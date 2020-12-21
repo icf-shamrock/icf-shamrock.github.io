@@ -8,14 +8,14 @@
 
              <p class="large">参加のお申し込みは<a href=https://passmarket.yahoo.co.jp/event/show/detail/01dwje10qxu2c.html>こちら</a><br>
                     締め切りは2020/2/20(Sun)です。</p>
-                    <p>今年度のICFは全てオンラインで行います。<br>プログラムは主に「講座」と「楽器ギャザリング」に分かれています。また、「講座」は事前の動画配信と当日のzoom配信がセットになっています。どちらか片方のみでも参加可能ですが、療法受講していただくことにより内容理解をより深めることができます。</p>
+                    <p>今年度のICFは全てオンラインで行います。<br>プログラムは主に「講座」と「楽器ギャザリング」に分かれています。また、「講座」は事前の動画配信と当日のzoom配信がセットになっています。どちらか片方のみでも参加可能ですが、両方受講していただくことにより内容理解をより深めることができます。</p>
                     <p>〜参加の流れ〜<br>
                         <font color=green>1.申し込みましょう！</font><br>
                     参加のお申し込みはこちら<br>
                     <font color=green>2.動画を視聴しましょう</font><br>
                     2/24頃に「講座」の事前配信動画のURLをお送りします。希望の動画を視聴し、Googleフォームにて質問・zoom配信当日に深めたいことなどをご記入ください。<br>
                     <font color=green>3.zoom配信に参加しましょう！</font><br>
-                    当日までにzoomに参加するためのIDとパスワードが送られます。時間になったら入室してください。<br>
+                    当日までにzoomに参加するためのIDとパスワードが送られます。時間になったら入室してください。<br><br>
                     「楽器ギャザリング」では、学生同士で各楽器をテーマに交流します。楽器ギャザリングは当日のzoom配信のみのプログラムになります。</p>
                     <p>以下<font color="orange">オレンジ</font>の部分はクリックして詳細が開ます。</p>
                 </div>
@@ -41,10 +41,13 @@
                 <td><a href="{{ event.href }}">{{event.title}}</a></td>
               {% else %}
                 <td>{{event.title}}</td>
+              {% else %}
+                <td>{{ event.description }}</td>
               {% endif %}
-              <td>{{ event.description }}</td>
+                <td><a href="#{{ event.deshover }}" data-toggle="modal" data-target="#{{ event.deshover }}">{{ event.description }}</a></td>
             </tr>
             {% endfor %}
+
         </table>
       {% endfor %}
 
