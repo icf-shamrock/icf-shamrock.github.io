@@ -90,5 +90,5 @@
       description: "フルートギャザリングb"
       deshover: "class_19"
     - date: "20:00~21:00"
-      title: "フィドラーのGalwayよもやま話"
-      hover: "class_16"
+      description: "フィドラーのGalwayよもやま話"
+      deshover: "class_16"
