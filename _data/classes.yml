@@ -143,8 +143,7 @@
     - name: "講座内容"
       all: "first"
       first:
-        description: 'ブルターニュなど他地域の音楽におけるフルート演奏とティンホイッスルの演奏について解説します。経験者でも初心者でも楽しく学べます！ <iframe width="560" height="315" src="https://www.youtube.com/embed/efiUH6GKNrI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
-        html: '<iframe width="560" height="315" src="https://www.youtube.com/embed/efiUH6GKNrI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+        description: "ブルターニュなど他地域の音楽におけるフルート演奏とティンホイッスルの演奏について解説します。経験者でも初心者でも楽しく学べます！"
     - name: "講師説明"
       all: "third"
       third:
