@@ -1,35 +1,74 @@
 - type: "class_1"
-  title: "豊田耕三<br>アイルランド武者修行のススメin Summer"
+  title: "3/11 午前の部<br>地域別クラス"
 
-  image: "../css/2017_style/img/teachers/toyota.jpg"
+  image: "../css/2017_style/img/classes/instrument.jpg"
 
-  description_detail: "アイリッシュ・フルート＆ティン・ホイッスル奏者。東京芸術大学卒業、同大学大学院修士課程修了。2005年、東京藝術大学ケルト音楽研究部（g-celt）を創設。2016年アイルランドで開催された伝統音楽の祭典フラー・キョールのコンペティションで、ティン・ホイッスル・スローエアー部門3位入賞（アジア人初）。2017年テレビ朝日「題名のない音楽会」出演。2010年、Intercollegiate Celtic Festivalを立案し、学生と共に立ち上げる。以降アドバイザー及び講師を兼任。"
+  description_detail: "色々なケルトやアイルランド付近の国・地域の音楽について学べるクラスです。アイリッシュ以外のクラスは初めて聞く人向け。アイリッシュも初心者レベルを想定しています。"
   notes:
-    - title: ""
+    - title: "申し込みについて"
       text:
-        - body: ""
+        - body: "アイリッシュを知るクラス〜コモンチューン20本ノック～、スコティッシュを知るクラス、ノルウェーを知るクラスは同じ内容のクラスを2回行いますので、どちらか一方にのみご参加ください。"
   all: "10:00~10:50, 11:00~11:50"
   first: "10:00~10:50"
   second: "11:00~11:50"
   third: "10:00~10:50, 11:00~11:50"
   classes:
-    - name: "講座内容"
+    - name: "アイリッシュを知るクラス～意外と知らないアイリッシュ音楽の過去～"
       all: "first"
       first:
-        description: "夏のアイルランドはフェスティバルのオンパレード！3ヶ月の観光ビザ期間内でも濃い体験ができます。フェスティバル、セッション、レッスン、コンペティションについてネットには載っていない情報をフルート奏者豊田さんが紹介します！"
+        teacher: "おおしま　ゆたか"
+        description: "アイルランドの伝統音楽はどのように変容していったのか、前編。マイケルコールマンがアイリッシュ音楽与えた影響から始まり、1990年代ごろまでを概観します。"
 
+    - name: "アイリッシュを知るクラス～コモンチューン20本ノック～"
+      all: "third"
+      third:
+        teacher: "豊田耕三"
+        description: "※前後半で内容は変わりません。<br>豊田さんがreelとjigを演奏します。その空間で、演奏してリズムを体得するのもよし、コモンチューンとしてレパートリーを増やすのもよし、セッションとして楽しむのもよし、アイリッシュを高める時間になるでしょう。"
 
+    - name: "スコティッシュを知るクラス"
+      all: "third"
+      third:
+        teacher: "Ryza"
+        description: "※前後半で内容は変わりません。<br>英国北部の地域スコットランドの音楽に触れてみませんか？ハイランドバグパイプの影響を強く受けた曲や、ほかの地域にはない独特のリズム「ストラスペイ」など、アイリッシュと似てるけどひと味違うスコティッシュの世界をご紹介します。"
+      html: '<iframe width="560" height="315" src="https://www.youtube.com/embed/mNaddz9cuV8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><iframe width="560" height="315" src="https://www.youtube.com/embed/yLrIG51x3Jg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+
+    - name: "ウェールズを知るクラス"
+      all: "first"
+      first:
+         teacher: "hatao"
+         description: "ケルト音楽のひとつ、ウェールズの伝統音楽を学びましょう。地理や歴史、ユニークな楽器や演奏家について解説します。"
+      html: '<iframe width="560" height="315" src="https://www.youtube.com/embed/tYnjyzN5jac" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><iframe width="560" height="315" src="https://www.youtube.com/embed/8DOXT2zUmTU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><iframe width="560" height="315" src="https://www.youtube.com/embed/Yxzgr6_a5Tk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+
+    - name: "ノルウェーを知るクラス"
+      all: "third"
+      third:
+         teacher: "酒井絵美"
+         description: "※前後半で内容は変わりません。<br>アイルランドの北東にある国、ノルウェー。アイルランドの音楽とはまた違った楽器、リズム、曲に触れて、新しい発見をしてみませんか？"
+      html: '<iframe width="560" height="315" src="https://www.youtube.com/embed/xhl9C1U-Vb0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+
+    - name: "アイリッシュを知るクラス～録音でたどるアイリッシュ・ミュージックの歩み 蝋管録音から現在まで～"
+      all: "second"
+      second:
+        teacher: "おおしま　ゆたか"
+        description: "アイルランドの伝統音楽はどのように変容していったのか、後編。アルタンの登場からおよそ現在まで、日本人におけるアイリッシュ音楽の営みも含みながら概観します。"
+
+    - name: "ブルターニュを知るクラス"
+      all: "second"
+      second:
+        teacher: "hatao"
+        description: "ケルト音楽のひとつ、ブルターニュの伝統音楽を学びましょう。地理や歴史、ユニークな楽器や演奏家について解説します。"
+      html: 'フェスト・ノーズという踊り会の動画で、色々なバンドが見られます。<iframe width="560" height="315" src="https://www.youtube.com/embed/uErRuMhUcDY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
 
 - type: "class_2"
-  title: "水上えり子<br>イーリアンパイプスについてとことん知ろう！<br>〜歴史・奏者編〜"
+  title: "3/11 午後の部<br>リズム別/ダンス/地域別/音楽/自由部屋"
 
-  image: "../css/2017_style/img/teachers/mizukami.gif"
+  image: "../css/2017_style/img/classes/instrument.jpg"
 
-  description_detail: "2014年に東京藝術大学のサークル「g-celt」でアイルランド音楽に出会い、イーリアンパイプスの演奏を始める。日本のセッションやライブなど様々な場で演奏を楽しんだ後、2019年9月よりアイルランドのリムリック大学のIrish Music Studies MAにて、伝統音楽について歴史・現在の事象・演奏など、幅広く学ぶ。現在は東京藝術大学大学院修士課程2年次に在籍中。好きな食べ物は、納豆。"
+  description_detail: "アイルランド音楽、その他ケルト地域音楽について学べるグループワークショップです。クラスではプロの講師の方にレクチャーしていただきます。普段から気になっているであろうノリや装飾について詳しく知ることができます。後半はみんなでダンスの見直し！初めて踊る人は最初の一歩、踊れる人も基本の復習をしましょう！"
   notes:
-    - title: ""
+    - title: "申し込みについて"
       text:
-        - body: ""
+        - body: "前後半通しのクラス（Reelクラス、シャンノースクラス、曲覚えのやり方共有＆セッションクラス）、前半だけのクラス（ウェールズ音楽を練習するクラス、イベリア付近のケルト概説クラス）、後半だけのクラス（ブルターニュ音楽を練習するクラス、ガリシア音楽を練習するクラス）がございます。ご注意ください。"
   all: "13:30~14:30, 13:30~15:20, 13:20~14:30, 14:30~15:20, 15:30~16:50"
   first: "13:30~15:20"
   second: "14:30~15:20"
@@ -37,322 +76,267 @@
   forth: "13:30~15:20"
   fifth: "13:30~14:30"
   classes:
-    - name: "講座内容"
+    - name: "Reelクラス"
       all: "first"
       first:
-        description: "イーリアンパイプス奏者の水上さんがイーリアンパイプスの歴史や奏者についてお話しします！イーリアンパイプスについて少し詳しく知りたい人はぜひご参加ください！"
+        teacher: "権藤　英美里"
+        description: "普段何気なく演奏しているReel。もっとアイリッシュっぽく弾くにはどうしたらいいんだろう？そもそもReelのリズムの特徴ってなんだっけ？そんな疑問に答えるべく実際にReelを一緒に演奏しながら、リズムのこつ・ポイントについて解説します。"
+
+    - name: "シャンノースクラス"
+      all: "first"
+      first:
+        teacher: "堀円花・寺町靖子"
+        description: "シャンノースでもっとかっこよく踊りたい！新しいステップを知りたい！そんな気持ちに答えるレベルアップのためのクラスです。シャンノースを少しでもかじったことがある人が対象です。"
+
+    - name: "ウェールズ音楽を練習するクラス"
+      all: "fifth"
+      fifth:
+        teacher: "hatao"
+        description: "ウェールズの魅力あふれる曲を一緒に練習しましょう。事前に楽譜や音源を公開するので、各自で準備してご参加ください。"
+
+    - name: "曲覚えのやり方共有＆セッションクラス"
+      all: "first"
+      first:
+        teacher: "豊田　耕三"
+        description: "皆は曲覚えどうしてるんだろう？耳コピ？tunepal？一曲まとめて覚えてる？フレーズで覚えてる？…より効率的にたのしく曲覚えをするためのヒントを知りたい人向け。セッションあまり行ったことないけどどんな場なんだろう？どうやって楽しんでるんだろう？どうやって入ればいいんだろう？そんな疑問に、実際にセッションをしながらこたえていきます。"
+
+    - name: "ブルターニュ音楽を練習するクラス"
+      all: "second"
+      second:
+        teacher: "hatao"
+        description: "ブルターニュの魅力あふれる曲を一緒に練習しましょう。事前に楽譜や音源を公開するので、各自で準備してご参加ください。"
+
+    - name: "イベリア付近のケルト概説クラス"
+      all: "fifth"
+      fifth:
+        teacher: "Tomo Yoshikawa"
+        description: "ガリシア、アストゥリアス、カスティーリャなど、イベリア半島の音楽を概説します！"
+
+    - name: "ガリシア音楽を練習するクラス"
+      all: "second"
+      second:
+        teachr: "吉川智広"
+        discription: "ケルト音楽の一種、ガリシアの音楽に触れてみませんか？アイルランドの音楽とはまた違った楽器、リズム、曲。新しい発見があるかもしれません！楽器をお持ちください。"
+      html: '<iframe width="560" height="315" src="https://www.youtube.com/embed/Z-7Gqi1Mu-o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><iframe width="560" height="315" src="https://www.youtube.com/embed/Ox06b3o6HFM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe><br><iframe width="560" height="315" src="https://www.youtube.com/embed/xdoAf9KBz7U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>'
+
+    - name: "ダンス基本見直しクラス"
+      all: "third"
+      third:
+        teacher: "堀円花・寺町靖子"
+        description: "2日目のダンスクラスやケーリーを楽しく踊るために、ステップや基本のムーブメント（ハウス、ホームetc...）など、セットダンスの基本を集中的におさらいします。曖昧になっているポイントがあれば、この機会に再確認しておきましょう。気持ちよく踊るコツを掴むことができます。"
+
+    - name: "自由利用部屋"
+      all: "first"
+      third:
+        teacher: ""
+        description: "自由に使うことのできる部屋です。"
+
+- type: "session"
+  title: "3/11 夜の部<br>セッション・バタリングクラス"
+  image: "../css/2017_style/img/session.jpg"
+  description_detail: "いくつかの部屋に分けれて自由にセッションを行える場、ダンスにもっと熱中したい人のためにバタリングクラスを用意しました。"
+  all: "first"
+  first: "20:00~21:50"
+  classes:
+    - name: "セッション"
+      all: "first"
+      first:
+        description: "自由にセッションができる時間です。"
+
+    - name: "バタリング・ステップクラス"
+      all: "first"
+      first:
+        teacher: "堀円花・寺町靖子"
+        description: "※受講条件：スムース・ステップでreelが踊れる人、コールがあればケーリーで踊れる人。バタリング・ステップの経験は問いません。 ケーリーで愛される”バタラー”になるためのコツや、クレア・スタイルのバタリングについて、実際に体を動かしながら一から丁寧に練習します。"
 
 - type: "class_3"
-  title: "小松大<br>名古屋のアイルランド音楽Talk"
+  title: "3/12 午前の部<br>リズム別/ダンス/音楽/自由部屋"
 
-  image: "../css/2017_style/img/teachers/komastu.gif"
+  image: "../css/2017_style/img/classes/instrument.jpg"
 
-  description_detail: "フィドル、ヴィオラ奏者/株式会社Ｏｄｅ代表取締役。  2004年にアイルランド音楽に出会い、06年に3ヶ月間にわたりアイルランド、クレア州に滞在しフィークル在住のフィドル奏者パット・オコナーより教えを受け、以降渡愛を重ねる。 アイルランド在住の望月えりかとともにブラックバードミュージックを設立、2012年には愛知県長久手市文化の家主催「Irish Days 2012 ～音楽のあるくらし～」をプロデュース、大きな反響を呼ぶ。 13年3月に伊勢神宮にて奉納演奏を行う。同年7月アイルランド人ギタリスト、デイヴ･フリンと愛知、東京で共演。  15年秋、CCE JAPAN主催ケーリーバンドコンペティションにおいて審査委員長個人賞を受賞。 16年9月、ギタリストの山本哲也と1st アルバム「Years」をリリース。18年、代々木公園で開催された「I Love Ireland Festival」出演。18年9月、Dai Komatsu & Tetsuya Yamamotoの2nd Album「Shadows and Silhouetttes」を、同11月、ギタリストの高橋創とデュオアルバム「NISHIKOKU P.M.2:30」をリリース。  これまでにPat O’Connor、Eoghan O’Sullivan、Dave Flynn、Cormac Begleyらと共演。 2019年にはOde Inc.を立ち上げCEOに就任。数多くのイベントの制作を手掛ける。  日本を代表するフィドル奏者として全国各地で演奏活動を行っている。"
-  notes:
-    - title: ""
-      text:
-        - body: ""
+  description_detail: "アイルランド音楽について楽器別・テーマ別に学べるグループワークショップです。クラスではプロの講師の方にレクチャーしていただきます。普段から気になっているであろうノリや装飾について詳しく知ることができます！学生同士で教え合うギャザリングやセッションの部屋もあります！"
+
   all: "13:30~14:30, 13:30~15:20, 13:20~14:30, 14:30~15:20, 15:30~16:50"
-  first: "13:30~15:20"
-  second: "14:30~15:20"
-  third: "15:30~16:50"
-  forth: "13:30~15:20"
-  fifth: "13:30~14:30"
+  first: "9:00~10:20"
+  second: "10:30~11:50"
   classes:
-    - name: "講座内容"
+    - name: "笛クラス～装飾編～"
       all: "first"
       first:
-        description: "トラッド好きの間で知られるようになった名古屋の音楽シーンの隆盛についてフィドル奏者の小松さんがお話しします。コミュニティの成り立ちから見える「日本でアイルランド音楽を続ける意味」を考える講座です。"
+        teacher: "豊田耕三"
+        description: "アイリッシュっぽさにもつながる「装飾」。憧れのあの人もやってるけど、実際自分が装飾入れるとなると、どんな装飾があるんだろう？どこにどう入れたらいいのか？どうやって練習する？実際に曲を吹きながら装飾を紹介・練習していきます。"
 
-    - name: "講師紹介"
-      all:
-        discricption: "フィドル、ヴィオラ奏者/株式会社Ｏｄｅ代表取締役。  2004年にアイルランド音楽に出会い、06年に3ヶ月間にわたりアイルランド、クレア州に滞在しフィークル在住のフィドル奏者パット・オコナーより教えを受け、以降渡愛を重ねる。 アイルランド在住の望月えりかとともにブラックバードミュージックを設立、2012年には愛知県長久手市文化の家主催「Irish Days 2012 ～音楽のあるくらし～」をプロデュース、大きな反響を呼ぶ。 13年3月に伊勢神宮にて奉納演奏を行う。同年7月アイルランド人ギタリスト、デイヴ･フリンと愛知、東京で共演。  15年秋、CCE JAPAN主催ケーリーバンドコンペティションにおいて審査委員長個人賞を受賞。 16年9月、ギタリストの山本哲也と1st アルバム「Years」をリリース。18年、代々木公園で開催された「I Love Ireland Festival」出演。18年9月、Dai Komatsu & Tetsuya Yamamotoの2nd Album「Shadows and Silhouetttes」を、同11月、ギタリストの高橋創とデュオアルバム「NISHIKOKU P.M.2:30」をリリース。  これまでにPat O’Connor、Eoghan O’Sullivan、Dave Flynn、Cormac Begleyらと共演。 2019年にはOde Inc.を立ち上げCEOに就任。数多くのイベントの制作を手掛ける。  日本を代表するフィドル奏者として全国各地で演奏活動を行っている。"
+    - name: "フィドルクラス～装飾編～"
+      all: "first"
+      first:
+        teacher: "権藤英美里"
+        description: "ロールやカットなど装飾を基本からレクチャーします。どんな装飾があるのかを知り、実際に練習し、みんなで曲の中で装飾使用して弾いてみましょう。"
+
+    - name: "アコーディオンクラス"
+      all: "first"
+      first:
+        teacher: "田中千尋"
+        description: " 普段演奏していて気になることを、今をときめくアコーディオン奏者に聞いてみよう！"
+
+    - name: "セットダンス研究会"
+      all: "first"
+      first:
+
+    - name: "hataoさんの笛クラス"
+      all: "first"
+      first:
+        teacher: "hatao"
+        description: "笛の猛者hataoさんに笛のことを何でも聞いちゃおう！ホイッスルやフルートの奏法、装飾、アイルランドの楽器じゃない笛のことも。"
+
+    - name: "マイナーリズムクラス"
+      all: "second"
+      second:
+        teacher: "豊田耕三"
+        description: "ReelやJigだけじゃないアイリッシュのリズムの曲を知りたい、つかみたい人のためのクラス。普段演奏されることが多くないリズムを学びます。"
+
+    - name: "歌クラス"
+      all: "second"
+      second:
+        teacher: "権藤英美里"
+        description: " アイルランドやスコットランドの歌ものを紹介・体験するクラスです。英語、ゲール語どちらも扱う予定です。 歌ものをまだあまり知らない方も、聞いているけど自分で歌ってみたいという方も、一緒に歌の魅力を感じられる時間になればと思います。 自分の好きな歌をシェアしたい方も大歓迎です！ "
+
+    - name: "Polkaクラス"
+      all: "second"
+      second:
+        teacher: "田中千尋"
+        description: "普段何気なく演奏しているPolka。簡単に見えて奥深いPolka。もっとアイリッシュっぽく弾くにはどうしたらいいんだろう？そもそもPolkaのリズムの特徴ってなんだっけ？そんな疑問に答えるべく実際にPolkaを一緒に演奏しながら、リズムのこつ・ポイントについて解説します。"
+
+    - name: "コンサーティーナ研究会"
+      all: "second"
+      second:
+        teacher: "内藤徹也"
+        description: ""
+
+    - name: "hataoさんと他地域セッション"
+      all: "second"
+      second:
+        teacher: "hatao"
+        description: "hataoさんとセッションをしよう！アイリッシュじゃない曲も歓迎される今イベント唯一のセッションです。"
+
+- type: "dance"
+  title: "3/12 午後の部<br>ダンスクラス"
+
+  image: "../css/2017_style/img/classes/dance.jpg"
+
+  description_detail: "セットダンスが大好きな講師2人による、基礎～中級者向けクラス2種。初めての方でも安心です！<br>※クラスはアンケートをもとにこちらで割り振らせていただきます。"
+
+  notes:
+    - title: "ダンスクラスの服装について"
+      text:
+        - body: "履物は普段履きなれたもの、できれば底の滑りが良いもの。スニーカーでもできますが底の形状によっては床に引っ掛かり踊りづらいものがあります。ヒールがピンポイントの靴もあまり向いていません。 "
+        - body: "汗をかくのでできれば着替え、汗を拭くものをお持ちください。"
+        - body: "更衣室はとくに用意されていません。各自化粧室や宿泊する部屋で着替えてください。"
+  classes:
+    - name: "クラスA"
+      all: "all"
+      teacher: "寺町靖子"
+      description: "2つのセットを取り上げて踊ります。セットをを覚えて夜のトヨタケーリーを楽しむだけでなく、セットダンスの新しい魅力を発見できるでしょう！"
+      html: '取り扱うセットは両クラスとも<a href="https://setdancepal.firebaseapp.com/#/set/Connemara">Connemara Set</a>と<a href="https://setdancepal.firebaseapp.com/#/set/Castle">Castle Set</a>になります。'
+    - name: "クラスB"
+      all: "all"
+      teacher: "寺田まり子"
+      description: "2つのセットを取り上げて踊ります。セットをを覚えて夜のトヨタケーリーを楽しむだけでなく、セットダンスの新しい魅力を発見できるでしょう！"
+      html: '取り扱うセットは両クラスとも<a href="https://setdancepal.firebaseapp.com/#/set/Connemara">Connemara Set</a>と<a href="https://setdancepal.firebaseapp.com/#/set/Castle">Castle Set</a>になります。'
 
 - type: "class_4"
-  title: "木村穂波<br>ボタンアコーディオンとアイルランドへの愛を語る"
+  title: "3/13 午前の部<br>楽器別ギャザリング/CDケーリー/音楽/自由部屋"
 
-  image: "../css/2017_style/img/teachers/honami.gif"
+  image: "../css/2017_style/img/classes/instrument.jpg"
 
-  description_detail: "クラシックピアノを3歳から、ピアノアコーディオンを15歳から始め、世界各地の音楽に親しむ。19歳の時にアイルランドの伝統音楽とボタンアコーディオンに魅了され、以降積極的に音楽活動を行っている。 2018年8月～2019年5月にアイルランドに留学し、現地の奏者に学びながら、首都ダブリンを拠点にライブ活動やラジオ出演など、研鑽を積んだ。 アイルランド伝統音楽の大会フラー・キォールに、2018年Toyotaro Ceili Bandのバンドメンバーとして本選に出場。また、2019年はソロ・ボタンアコーディオン部門で、前途の大会に日本人初の本選出場を果たした。"
-  notes:
-    - title: ""
-      text:
-        - body: ""
-  all: "13:30~14:30, 13:30~15:20, 13:20~14:30, 14:30~15:20, 15:30~16:50"
-  first: "13:30~15:20"
-  second: "14:30~15:20"
-  third: "15:30~16:50"
-  forth: "13:30~15:20"
-  fifth: "13:30~14:30"
+  description_detail: "アイルランド音楽について楽器別に学べる初心者向けのグループワークショップです。クラスではプロの講師の方にレクチャーしていただきます。普段から気になっているであろうノリや装飾について詳しく知ることができます！学生同士で教え合うギャザリングやセッションの部屋もあります！"
+
+  all: "8:40~11:50, 9:30~10:20, 10:30~11:50"
+  first: "8:40~11:50"
+  second: "9:30~10:20"
+  third: "10:30~11:50"
   classes:
-    - name: "講座内容"
+    - name: "楽器別ギャザリング"
+      all: "second"
+      second:
+        teacher: ""
+        description: "イーリアンパイプス: 藤野萌香<br>フィドル: 福島開<br>フルート・ホイッスル: 下崎嵩登<br>アコーディオン: 中林亮<br>バンジョー: 早川智絢<br>コンサーティーナ: 内藤徹也<br>バウロン: 中村岳史"
+
+    - name: "笛クラス～奏者研究編～"
+      all: "third"
+      third:
+        teacher: "豊田耕三"
+        description: "笛の吹き方・アクセントは、奏者や地域によって異なります。このクラスでは数人の笛奏者をとりあげて、彼らの奏法を分析します。また普段の練習方法などについても触れます。"
+
+    - name: "フィドルクラス～ボウイング編～"
+      all: "third"
+      third:
+        teacher: "中藤有花"
+        description: "ヴァイオリンは歌い、フィドルは踊る。歌と踊りの違いはボーイングの中に⁉アイリッシュっぽいボーイングとは？を中心にフィドルの弾き方を学びます。"
+
+    - name: "バンジョークラス"
+      all: "third"
+      third:
+        teacher: "高橋創"
+        description: "バンジョーをもっとうまく演奏したい！この部分はバンジョーでどう弾くんだろう？実際に演奏しながら疑問を解消していき、技術向上のきっかけとなるクラスです。"
+
+    - name: "CDケーリー"
+      all: "third"
+      third:
+        description: "踊り足りない人向け。CD音源によるケーリーを行います。"
+
+    - name: "Takaさんのお話クラス～地域編～"
+      all: "third"
+      third:
+        teacher: "Taka"
+        description: "アイルランドの中での地域性を概観します。アイルランド音楽の深淵を覗いてみませんか？"
+
+    - name: "自由利用部屋"
       all: "first"
       first:
-        description: "ダブリンへの留学経験もある木村さんが、現地のセッション・セットダンスなどの体験記、またボタンアコーディオンやアイリッシュ音楽への愛を語ります！ "
+        description: "自由にご利用いただけます。"
 
 - type: "class_5"
-  title: "Taka<br>アイルランド音楽演奏法の地域性講座"
+  title: "3/13 午後の部<br>リズム別/ダンス/音楽/自由部屋"
 
-  image: "../css/2017_style/img/teachers/taka.jpg"
+  image: "../css/2017_style/img/classes/instrument.jpg"
 
-  description_detail: "語学留学で訪れたアイルランドで現地の伝統音楽に出会い楽器(ティンホイッスルやバンジョー、フィドル等)を始める。 滞在中、アイリッシュ音楽の国際協会「Comhaltas Ceoltóirí Éireann」が実施するアイリッシュ音楽の演奏技能試験「SCT Exam」に合格したほか、アイリッシュ音楽の国際コンクール「Fleadh Cheoil na hÉireann」に出場。 2015年アイリッシュ音楽の公認講師資格試験「TTCT Exam」に日本人として初めて合格。アイルランド公認のフィドルの認定講師となる。 2019年アイルランド伝統音楽の国際コンクール「Fleadh Cheoil na hÉireann (オールアイルランドフラー)」においてアジア人初となる2位入賞を果たす。 現在は主にフィドルの演奏及び指導を通じてアイルランド(アイリッシュ/ケルト)音楽の普及と発展に努めている。"
-  notes:
-    - title: ""
-      text:
-        - body: ""
-  all: "13:30~14:30, 13:30~15:20, 13:20~14:30, 14:30~15:20, 15:30~16:50"
+  description_detail: "アイルランド音楽について楽器別・テーマ別に学べるグループワークショップです。クラスではプロの講師の方にレクチャーしていただきます。普段から気になっているであろうノリや装飾について詳しく知ることができます！学生同士で教え合う研究会の部屋もあります。"
+
+  all: "13:30~15:20"
   first: "13:30~15:20"
-  second: "14:30~15:20"
-  third: "15:30~16:50"
-  forth: "13:30~15:20"
-  fifth: "13:30~14:30"
   classes:
-    - name: "講座内容"
+    - name: "豊田式身体の使い方クラス"
       all: "first"
       first:
-        description: "未定 "
+        teacher: "豊田耕三"
+        description: "アイルランド音楽を演奏する上での体の使い方を学びます。楽に楽器を演奏するにはどうすればいいのか。体の使い方は直接音に影響するといっても過言ではありません。"
 
-- type: "class_6"
-  title: "hatao<br>ケルト他地域における笛演奏講座"
-
-  image: "../css/2017_style/img/teachers/hatao.gif"
-
-  description_detail: "アイリッシュ・フルート、ティン・ホイッスル奏者、音楽教師、音楽教材著者、楽器店経営者。ハープと笛のhatao & nami、ケルトの笛屋さんにて演奏、教育、普及により音楽の楽しみを広める。"
-  notes:
-    - title: ""
-      text:
-        - body: ""
-  all: "13:30~14:30, 13:30~15:20, 13:20~14:30, 14:30~15:20, 15:30~16:50"
-  first: "13:30~15:20"
-  second: "14:30~15:20"
-  third: "15:30~16:50"
-  forth: "13:30~15:20"
-  fifth: "13:30~14:30"
-  classes:
-    - name: "講座内容"
+    - name: "Jigクラス"
       all: "first"
       first:
-        description: "ブルターニュなど他地域の音楽におけるフルート演奏とティンホイッスルの演奏について解説します。経験者でも初心者でも楽しく学べます！"
+        teacher: "中藤有花"
+        description: "普段何気なく演奏しているJig。もっとアイリッシュっぽく弾くにはどうしたらいいんだろう？そもそもJigのリズムの特徴ってなんだっけ？そんな疑問に答えるべく実際にJigを一緒に演奏しながら、リズムのこつ・ポイントについて解説します。"
 
-- type: "class_7"
-  title: "おおしまゆたか<br>アイリッシュを知る講座～意外と知らないアイリッシュ音楽の過去～前編"
-
-  image: "../css/2017_style/img/teachers/ohshima.gif"
-
-  description_detail: "アイルランド、ブリテン諸島はじめヨーロッパの伝統音楽をこよなく愛する翻訳家。著書に『アイルランド音楽――碧の島から世界へ』（アルテスパブリッシング）、訳書に『ギネスの哲学』（英治出版）、『アイリッシュ・ミュージック・セッション・ガイド』（アルテスパブリッシング）、『アイルランド　社会と文化1922～85年』（国文社）、『アイリッシュハートビート　ザ・チーフタンズの軌跡』（音楽之友社）、『アイリッシュ・ソウルを求めて』（大栄出版）があるほか、『火星三部作』『驚異の発明家の形見函』（東京創元社）『茶匠と探偵』（竹書房）など多くの翻訳を手がけている。ブログ：http://blog.livedoor.jp/yosoys/"
-  notes:
-    - title: ""
-      text:
-        - body: ""
-  all: "13:30~14:30, 13:30~15:20, 13:20~14:30, 14:30~15:20, 15:30~16:50"
-  first: "13:30~15:20"
-  second: "14:30~15:20"
-  third: "15:30~16:50"
-  forth: "13:30~15:20"
-  fifth: "13:30~14:30"
-  classes:
-    - name: "講座内容"
+    - name: "撥弦楽器伴奏クラス"
       all: "first"
       first:
-        description: "アイリッシュ・ミュージックの歩みを、蝋管録音から現在まで、録音でたどりながらお話します。前編・後編の二部構成となっています。"
+        teacher: "高橋創"
+        description: "セッションで撥弦伴奏楽器を演奏するにはどうしたらいいの？ギターをアイルランド音楽を演奏するためのクラスです。"
 
-- type: "class_8"
-  title: "吉田万紀<br>深堀！コンサーティーナの世界"
-
-  image: "../css/2017_style/img/teachers/yoshida.gif"
-
-  description_detail: "東京芸術大学楽理科卒業。在学中に同大学ケルト音楽研究部(g-celt)にてアイルランド音楽に出会い、2013年よりコンサーティーナを始める。その後、日本国内・アイルランドでのワークショップ等に参加し、国内外の奏者からコンサーティーナを学ぶ。2018年よりToyota Ceili Bandの一員として活動。現在は「人間の心と音楽」という観点に興味を持ち、聖グレゴリオの家の臨床音楽セラピスト養成科にて、ドイツの心理療法的音楽療法を学んでいる。"
-  notes:
-    - title: ""
-      text:
-        - body: ""
-  all: "13:30~14:30, 13:30~15:20, 13:20~14:30, 14:30~15:20, 15:30~16:50"
-  first: "13:30~15:20"
-  second: "14:30~15:20"
-  third: "15:30~16:50"
-  forth: "13:30~15:20"
-  fifth: "13:30~14:30"
-  classes:
-    - name: "講座内容"
+    - name: "Takaさんの深いお話クラス～奏者編～"
       all: "first"
       first:
-        description: "コンサーティーナでアイルランド音楽を演奏することの魅力、クレア地方の古いスタイルの演奏や、独特の味わい深い音色をもつコンサーティーナリードの楽器に焦点をあてながら、吉田さんがお話しします！"
+        teacher: "Taka"
+        description: "クレア地方のフィドル奏者、マーティン・ヘイズを中心にアイルランド音楽の深みをのぞきます。アイルランド音楽をのマニアックな部分に触れ、魅力が再発見できるでしょう。"
 
-- type: "class_9"
-  title: "高橋創<br>はじめさんのギターレッスン"
-
-  image: "../css/2017_style/img/teachers/hajime.jpg"
-
-  description_detail: "小学校５年生の時にギターを始め、たまたま聞いたビートルズの音源に衝撃を受ける。 中学生の頃アイリッシュギターの第一人者である城田じゅんじ氏に師事。 ２０１０年からアイルランドへ拠点を移し、現地でアイルランド音楽を学ぶ。2017年帰国。"
-  notes:
-    - title: ""
-      text:
-        - body: ""
-  all: "13:30~14:30, 13:30~15:20, 13:20~14:30, 14:30~15:20, 15:30~16:50"
-  first: "13:30~15:20"
-  second: "14:30~15:20"
-  third: "15:30~16:50"
-  forth: "13:30~15:20"
-  fifth: "13:30~14:30"
-  classes:
-    - name: "講座内容"
+    - name: "スプーン＆打楽器研究会"
       all: "first"
       first:
-        description: "アイランド音楽をギターで伴奏するにはどうすればいいの？そのような疑問に答えながら、人気ギター奏者高橋創さんがギター伴奏について詳しく解説します！"
+        teacher: "飯井大智"
 
-- type: "class_10"
-  title: "赤嶺文彦<br>アイルランド在住ブズーキ弾きふーさんの座談会"
-
-  image: "../css/2017_style/img/teachers/akamine.gif"
-
-  description_detail: "アイルランド在住のアマチュアミュージシャンで、ブズーキとフィドルをパブセッションなどで長年弾いてきました。専門教育を受けていませんので音楽理論の知識も演奏技術も持ち合わせていませんので、演奏は「感性だけの我流」です。現地在住歴は長いので、引き出しは豊富で雑談は得意です（笑）"
-  notes:
-    - title: ""
-      text:
-        - body: ""
-  all: "13:30~14:30, 13:30~15:20, 13:20~14:30, 14:30~15:20, 15:30~16:50"
-  first: "13:30~15:20"
-  second: "14:30~15:20"
-  third: "15:30~16:50"
-  forth: "13:30~15:20"
-  fifth: "13:30~14:30"
-  classes:
-    - name: "講座内容"
+    - name: "自由利用部屋"
       all: "first"
       first:
-        description: "アイルランド在住歴の長いふーさんがブズーキ奏者としてみた現地のセッションや体験したことを参加者との交流を交えて楽しくお話しします！アイルランドの事情に詳しいふーさんに色々聞きましょう！"
-
-- type: "class_11"
-  title: "中原直生<br>イーリアンパイプスについてとことん知ろう！〜楽器の構造編〜"
-
-  image: "../css/2017_style/img/teachers/nakahara.gif"
-
-  description_detail: "小学生の頃から習っていたタップダンスがきっかけでアイリッシュダンスを知り、その音楽に惹かれてホイッスルとイーリアンパイプスを始める。大学在学中にICFを立ち上げ、第3回まで代表を務める。2012年に渡愛した際は4週連続でサマースクールに参加。ハープとのデュオ生梅やLADY Chieftainsのメンバーとして演奏している。"
-  notes:
-    - title: ""
-      text:
-        - body: ""
-  all: "13:30~14:30, 13:30~15:20, 13:20~14:30, 14:30~15:20, 15:30~16:50"
-  first: "13:30~15:20"
-  second: "14:30~15:20"
-  third: "15:30~16:50"
-  forth: "13:30~15:20"
-  fifth: "13:30~14:30"
-  classes:
-    - name: "講座内容"
-      all: "first"
-      first:
-        description: "構造が複雑でマスターするのが難しいというイーリアンパイプスについて中原さんが詳しく解説します！Zoom講座では、アイルランドのサマースクールの経験についてもお話しします！"
-
-- type: "class_12"
-  title: "山田直也<br>関西のフルート吹き、セッションについて語る"
-
-  image: "../css/2017_style/img/teachers/yamada.gif"
-
-  description_detail: "ザ・ナターシャー・セブンとか弾いて歌ってる家に生まれる。でも弦ではなくフルート奏者。 セッションの雰囲気に惹かれ、喫茶ウッドノートなどでセッション三昧の学生生活を送る。 ICFにも第3回から数年参加。出会ったメンバとケーリーなどの音楽活動を展開した。 現在は時々セッションに顔を出す一方で、自身の理想を追い求めて奮闘中。 たまに人前で弾いたりダンスの伴奏をしたりもする。"
-  notes:
-    - title: ""
-      text:
-        - body: ""
-  all: "13:30~14:30, 13:30~15:20, 13:20~14:30, 14:30~15:20, 15:30~16:50"
-  first: "13:30~15:20"
-  second: "14:30~15:20"
-  third: "15:30~16:50"
-  forth: "13:30~15:20"
-  fifth: "13:30~14:30"
-  classes:
-    - name: "講座内容"
-      all: "first"
-      first:
-        description: "フルート奏者山田さんのセッションについてのお話を聞こう！セッションと自身の音楽との関連性や、どのように音楽を理解してきたかなどをお話しします。"
-
-- type: "class_13"
-  title: "岩浅翔<br>バンジョーでアイリッシュを弾いてみよう！"
-
-  image: "../css/2017_style/img/teachers/iwasa.gif"
-
-  description_detail: "幼少期から両親の営むライブ喫茶に出入りしており、ある時にEast Whistleというアイリッシュなどのワールドミュージックを演奏するユニットのライブを見て衝撃を受けリコーダーでアイリッシュチューンを真似て演奏していた。 15歳の時にギターを始め一度アイリッシュからは離れるが、成人後に東京のパブでアイリッシュ音楽を再び聞く機会があり、初めてティンホイッスルの存在を知ってその後本格的にホイッスル、フルートを始め、後にテナーバンジョーを独学で学ぶ。"
-  notes:
-    - title: ""
-      text:
-        - body: ""
-  all: "13:30~14:30, 13:30~15:20, 13:20~14:30, 14:30~15:20, 15:30~16:50"
-  first: "13:30~15:20"
-  second: "14:30~15:20"
-  third: "15:30~16:50"
-  forth: "13:30~15:20"
-  fifth: "13:30~14:30"
-  classes:
-    - name: "講座内容"
-      all: "first"
-      first:
-        description: "バンジョーを含む様々な楽器を演奏する岩浅さんが、アイルランド音楽をバンジョーで演奏する際の装飾やテクニックといった技術に加えてバンジョーとの付き合い方などをお話しします！"
-
-- type: "class_14"
-  title: "田中千尋<br>誰でも楽しめるアコーディオン講座"
-
-  image: "../css/2017_style/img/teachers/tanachi.gif"
-
-  description_detail: "東京藝術大学音楽学部楽理科卒。学内のアイリッシュ音楽サークルg-celtにてアイルランド音楽と出会い、同年秋より、ボタンアコーディオンを弾き始める。Toyota Ceili Band、セツメロゥズ、Leanbh、Loup-garou等のグループのメンバーとして東京を中心にライヴやアイリッシュセットダンスのイベント等に参加。また月1でアイリッシュセッションホストも行う。"
-  notes:
-    - title: ""
-      text:
-        - body: ""
-  all: "13:30~14:30, 13:30~15:20, 13:20~14:30, 14:30~15:20, 15:30~16:50"
-  first: "13:30~15:20"
-  second: "14:30~15:20"
-  third: "15:30~16:50"
-  forth: "13:30~15:20"
-  fifth: "13:30~14:30"
-  classes:
-    - name: "講座内容"
-      all: "first"
-      first:
-        description: "トヨタケーリーバンドのメンバーでもある田中さんがエニスでのフラー体験記も交えつつ、ボタンアコーディオンについて楽しくお話しします！初心者またはさらにアコーディオンについて深めたい人どちらも大歓迎です！"
-
-- type: "class_15"
-  title: "北川友里<br>バウロン（協力：Johnny McDonagh・藤田唯）＆ケーリバンドスタイル・ドラム講座"
-
-  image: "../css/2017_style/img/teachers/bodhran.gif"
-
-  description_detail: "14歳の時にアイルランド音楽に出会う。 クラシックの打楽器を専攻後、2011年にドラム(ケーリーバンドスタイル)、バウロン、セットダンスをはじめる。2017年から1年間アイルランドに滞在。毎晩のようにセッションやダンスクラス、ケーリーに参加する傍ら、世界各国のダンスナイトにも足を運ぶ。滞在中、ゴールウェイ州代表としてFleadh Cheoilのドラム部門に出場。その際Benny Oconnor(Shaskeen/ Tulla CB) Ger Naughton(Shandrum CB)の各師にドラムを師事。2020年に再び渡愛し、世界情勢により一時帰国中。 趣味は東ヨーロッパの伝統音楽とポップス。"
-  notes:
-    - title: ""
-      text:
-        - body: ""
-  all: "13:30~14:30, 13:30~15:20, 13:20~14:30, 14:30~15:20, 15:30~16:50"
-  first: "13:30~15:20"
-  second: "14:30~15:20"
-  third: "15:30~16:50"
-  forth: "13:30~15:20"
-  fifth: "13:30~14:30"
-  classes:
-    - name: "講座内容"
-      all: "first"
-      first:
-        description: "トヨタケーリーバンドのメンバーでもある北川さんがアイルランドの滞在経験も含めドラマーのスタイルやケーリー、バウロンについてお話しします！Zoom講座では、アイルランドのバウロン奏者Johnny McDonaghさんとその奥様、藤田唯さんをお迎えし、バウロンの歴史やセッションのことなど貴重なお話や演奏をしていただきます！"
-
-- type: "class_16"
-  title: "梁池真世<br>フィドラーのGalwayよもやま話"
-
-  image: "../css/2017_style/img/teachers/yanachi.gif"
-
-  description_detail: "東京都出身。７歳よりバイオリンを習い始める。演劇の世界に魅せられ、大学入学と同時に俳優養成所に入所する。卒業後、渡英。パントマイムやフィジカルシアターを学び、ロンドンにてサーカス学科学士課程を卒業。渡英中に出会ったフィドラーに影響を受け、日本に帰国後、田村拓志氏にアイリッシュフィドルを師事。更に研鑽を積むため、２００７年に渡愛する。２０１０年、リムリック大学伝統音楽演奏科修士課程を首席で卒業。以後、ゴールウェイのセッションシーンを牽引する。"
-  notes:
-    - title: ""
-      text:
-        - body: ""
-  all: "13:30~14:30, 13:30~15:20, 13:20~14:30, 14:30~15:20, 15:30~16:50"
-  first: "13:30~15:20"
-  second: "14:30~15:20"
-  third: "15:30~16:50"
-  forth: "13:30~15:20"
-  fifth: "13:30~14:30"
-  classes:
-    - name: "講座内容"
-      all: "first"
-      first:
-        description: "ゴールウェイで長年セッションリーダーを務めている梁池さんが、フィドラーの視点からみた現地セッションの裏話やリムリック大学院について、㊙︎英語上達方法までお送りします！アイルランドの暮らしに興味のある人、老若男女必見です！"
-
+        description: "自由にご利用いただけます。"
 
 
