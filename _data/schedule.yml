@@ -1,4 +1,4 @@
-- date: "2021/3/19(fri)"
+- date: "2020/3/19(fri)"
   title: "1日目"
   events:
     - date: "11:00~12:00"
@@ -28,7 +28,7 @@
       title: "交流会"
 
 
-- date: "2021/3/20(Sat)"
+- date: "2020/3/20(Sat)"
   title: "2日目"
   events:
     - date: "11:00~12:00"
@@ -61,7 +61,7 @@
       hover: "class_10"
 
 
-- date: "2021/3/21(Sun)"
+- date: "2020/3/21(Sun)"
   title: "3日目"
   events:
     - date: "11:00~12:00"
