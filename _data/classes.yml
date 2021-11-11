@@ -105,9 +105,9 @@
   image: "../css/2017_style/img/teachers/taka.jpg"
 
   notes:
-    - title: "注意事項"
+    - title: ""
       text:
-        - body: "こちらの講座は動画配信はなく、代わりに事前資料を配布予定です。"
+        - body: ""
   all: "13:30~14:30, 13:30~15:20, 13:20~14:30, 14:30~15:20, 15:30~16:50"
   first: "18:30~19:30"
   second: "14:30~15:20"
@@ -118,7 +118,7 @@
     - name: "講座内容"
       all: "first"
       first:
-        description: "アイルランドの中でのフィドル奏法における地域性を概観します。アイルランド音楽の深淵を覗いてみませんか？ "
+        description: "未定 "
     - name: "講師説明"
       all: "third"
       third:
