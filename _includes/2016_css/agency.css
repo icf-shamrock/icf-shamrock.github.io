@@ -352,7 +352,7 @@ fieldset[disabled] .btn-xl.active {
 header {
     height: 100vh;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/css/2017_style/img/header-bg-13-2.png');
+    background-image: url('{{ site.baseurl }}/css/2017_style/img/header-bg-13.jpg');
     background-position: center center;
     background-repeat: none;
     -webkit-background-size: cover;
@@ -365,7 +365,7 @@ header {
 @media screen and (-webkit-min-device-pixel-ratio:2),
                   (min-resolution: 2dppx){
   header {
-    background-image: url('{{ site.baseurl }}/css/2017_style/img/header-bg-13-2.png');
+    background-image: url('{{ site.baseurl }}/css/2017_style/img/header-bg-13.jpg');
   }
 }
 
