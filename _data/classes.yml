@@ -59,7 +59,7 @@
       all: "first"
       first:
         teacher: "齋藤 翔太"
-        description: ""
+        description: "未定。内容が決定次第更新いたします。"
 
     - name: "バウロン講座"
       all: "first"
@@ -170,7 +170,7 @@
       all: "first"
       first:
         teacher: "Síle Uí Mhurchú"
-        description: ""
+        description: "未定。内容が決定次第更新いたします。"
 
     - name: "楽器・テーマ別ギャザリング"
       all: "first"
